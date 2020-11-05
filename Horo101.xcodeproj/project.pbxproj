@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EFC5D872554324A00CA817B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC5D862554324A00CA817B /* AppDelegate.swift */; };
+		2EFC5D892554324A00CA817B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC5D882554324A00CA817B /* SceneDelegate.swift */; };
+		2EFC5D8B2554324A00CA817B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC5D8A2554324A00CA817B /* ViewController.swift */; };
+		2EFC5D8E2554324A00CA817B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFC5D8C2554324A00CA817B /* Main.storyboard */; };
+		2EFC5D902554324B00CA817B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFC5D8F2554324B00CA817B /* Assets.xcassets */; };
+		2EFC5D932554324B00CA817B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFC5D912554324B00CA817B /* LaunchScreen.storyboard */; };
+		2EFC5D9E2554324B00CA817B /* Horo101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC5D9D2554324B00CA817B /* Horo101Tests.swift */; };
+		2EFC5DA92554324B00CA817B /* Horo101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFC5DA82554324B00CA817B /* Horo101UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EFC5D9A2554324B00CA817B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFC5D7B2554324A00CA817B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFC5D822554324A00CA817B;
+			remoteInfo = Horo101;
+		};
+		2EFC5DA52554324B00CA817B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFC5D7B2554324A00CA817B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFC5D822554324A00CA817B;
+			remoteInfo = Horo101;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EFC5D832554324A00CA817B /* Horo101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horo101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFC5D862554324A00CA817B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EFC5D882554324A00CA817B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2EFC5D8A2554324A00CA817B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EFC5D8D2554324A00CA817B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EFC5D8F2554324B00CA817B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EFC5D922554324B00CA817B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EFC5D942554324B00CA817B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFC5D992554324B00CA817B /* Horo101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horo101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFC5D9D2554324B00CA817B /* Horo101Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horo101Tests.swift; sourceTree = "<group>"; };
+		2EFC5D9F2554324B00CA817B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFC5DA42554324B00CA817B /* Horo101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horo101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFC5DA82554324B00CA817B /* Horo101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horo101UITests.swift; sourceTree = "<group>"; };
+		2EFC5DAA2554324B00CA817B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EFC5D802554324A00CA817B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFC5D962554324B00CA817B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFC5DA12554324B00CA817B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EFC5D7A2554324A00CA817B = {
+			isa = PBXGroup;
+			children = (
+				2EFC5D852554324A00CA817B /* Horo101 */,
+				2EFC5D9C2554324B00CA817B /* Horo101Tests */,
+				2EFC5DA72554324B00CA817B /* Horo101UITests */,
+				2EFC5D842554324A00CA817B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EFC5D842554324A00CA817B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC5D832554324A00CA817B /* Horo101.app */,
+				2EFC5D992554324B00CA817B /* Horo101Tests.xctest */,
+				2EFC5DA42554324B00CA817B /* Horo101UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EFC5D852554324A00CA817B /* Horo101 */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC5D862554324A00CA817B /* AppDelegate.swift */,
+				2EFC5D882554324A00CA817B /* SceneDelegate.swift */,
+				2EFC5D8A2554324A00CA817B /* ViewController.swift */,
+				2EFC5D8C2554324A00CA817B /* Main.storyboard */,
+				2EFC5D8F2554324B00CA817B /* Assets.xcassets */,
+				2EFC5D912554324B00CA817B /* LaunchScreen.storyboard */,
+				2EFC5D942554324B00CA817B /* Info.plist */,
+			);
+			path = Horo101;
+			sourceTree = "<group>";
+		};
+		2EFC5D9C2554324B00CA817B /* Horo101Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC5D9D2554324B00CA817B /* Horo101Tests.swift */,
+				2EFC5D9F2554324B00CA817B /* Info.plist */,
+			);
+			path = Horo101Tests;
+			sourceTree = "<group>";
+		};
+		2EFC5DA72554324B00CA817B /* Horo101UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EFC5DA82554324B00CA817B /* Horo101UITests.swift */,
+				2EFC5DAA2554324B00CA817B /* Info.plist */,
+			);
+			path = Horo101UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EFC5D822554324A00CA817B /* Horo101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFC5DAD2554324B00CA817B /* Build configuration list for PBXNativeTarget "Horo101" */;
+			buildPhases = (
+				2EFC5D7F2554324A00CA817B /* Sources */,
+				2EFC5D802554324A00CA817B /* Frameworks */,
+				2EFC5D812554324A00CA817B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horo101;
+			productName = Horo101;
+			productReference = 2EFC5D832554324A00CA817B /* Horo101.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EFC5D982554324B00CA817B /* Horo101Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFC5DB02554324B00CA817B /* Build configuration list for PBXNativeTarget "Horo101Tests" */;
+			buildPhases = (
+				2EFC5D952554324B00CA817B /* Sources */,
+				2EFC5D962554324B00CA817B /* Frameworks */,
+				2EFC5D972554324B00CA817B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFC5D9B2554324B00CA817B /* PBXTargetDependency */,
+			);
+			name = Horo101Tests;
+			productName = Horo101Tests;
+			productReference = 2EFC5D992554324B00CA817B /* Horo101Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EFC5DA32554324B00CA817B /* Horo101UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFC5DB32554324B00CA817B /* Build configuration list for PBXNativeTarget "Horo101UITests" */;
+			buildPhases = (
+				2EFC5DA02554324B00CA817B /* Sources */,
+				2EFC5DA12554324B00CA817B /* Frameworks */,
+				2EFC5DA22554324B00CA817B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFC5DA62554324B00CA817B /* PBXTargetDependency */,
+			);
+			name = Horo101UITests;
+			productName = Horo101UITests;
+			productReference = 2EFC5DA42554324B00CA817B /* Horo101UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EFC5D7B2554324A00CA817B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					2EFC5D822554324A00CA817B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					2EFC5D982554324B00CA817B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 2EFC5D822554324A00CA817B;
+					};
+					2EFC5DA32554324B00CA817B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 2EFC5D822554324A00CA817B;
+					};
+				};
+			};
+			buildConfigurationList = 2EFC5D7E2554324A00CA817B /* Build configuration list for PBXProject "Horo101" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EFC5D7A2554324A00CA817B;
+			productRefGroup = 2EFC5D842554324A00CA817B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EFC5D822554324A00CA817B /* Horo101 */,
+				2EFC5D982554324B00CA817B /* Horo101Tests */,
+				2EFC5DA32554324B00CA817B /* Horo101UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EFC5D812554324A00CA817B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFC5D932554324B00CA817B /* LaunchScreen.storyboard in Resources */,
+				2EFC5D902554324B00CA817B /* Assets.xcassets in Resources */,
+				2EFC5D8E2554324A00CA817B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFC5D972554324B00CA817B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFC5DA22554324B00CA817B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EFC5D7F2554324A00CA817B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFC5D8B2554324A00CA817B /* ViewController.swift in Sources */,
+				2EFC5D872554324A00CA817B /* AppDelegate.swift in Sources */,
+				2EFC5D892554324A00CA817B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFC5D952554324B00CA817B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFC5D9E2554324B00CA817B /* Horo101Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFC5DA02554324B00CA817B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFC5DA92554324B00CA817B /* Horo101UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EFC5D9B2554324B00CA817B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EFC5D822554324A00CA817B /* Horo101 */;
+			targetProxy = 2EFC5D9A2554324B00CA817B /* PBXContainerItemProxy */;
+		};
+		2EFC5DA62554324B00CA817B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EFC5D822554324A00CA817B /* Horo101 */;
+			targetProxy = 2EFC5DA52554324B00CA817B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EFC5D8C2554324A00CA817B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFC5D8D2554324A00CA817B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EFC5D912554324B00CA817B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFC5D922554324B00CA817B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EFC5DAB2554324B00CA817B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EFC5DAC2554324B00CA817B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EFC5DAE2554324B00CA817B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BF693N7N5;
+				INFOPLIST_FILE = Horo101/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = phumipat.Horo101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EFC5DAF2554324B00CA817B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BF693N7N5;
+				INFOPLIST_FILE = Horo101/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = phumipat.Horo101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EFC5DB12554324B00CA817B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BF693N7N5;
+				INFOPLIST_FILE = Horo101Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = phumipat.Horo101Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horo101.app/Horo101";
+			};
+			name = Debug;
+		};
+		2EFC5DB22554324B00CA817B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BF693N7N5;
+				INFOPLIST_FILE = Horo101Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = phumipat.Horo101Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horo101.app/Horo101";
+			};
+			name = Release;
+		};
+		2EFC5DB42554324B00CA817B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BF693N7N5;
+				INFOPLIST_FILE = Horo101UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = phumipat.Horo101UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horo101;
+			};
+			name = Debug;
+		};
+		2EFC5DB52554324B00CA817B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BF693N7N5;
+				INFOPLIST_FILE = Horo101UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = phumipat.Horo101UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horo101;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EFC5D7E2554324A00CA817B /* Build configuration list for PBXProject "Horo101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFC5DAB2554324B00CA817B /* Debug */,
+				2EFC5DAC2554324B00CA817B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFC5DAD2554324B00CA817B /* Build configuration list for PBXNativeTarget "Horo101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFC5DAE2554324B00CA817B /* Debug */,
+				2EFC5DAF2554324B00CA817B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFC5DB02554324B00CA817B /* Build configuration list for PBXNativeTarget "Horo101Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFC5DB12554324B00CA817B /* Debug */,
+				2EFC5DB22554324B00CA817B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFC5DB32554324B00CA817B /* Build configuration list for PBXNativeTarget "Horo101UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFC5DB42554324B00CA817B /* Debug */,
+				2EFC5DB52554324B00CA817B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EFC5D7B2554324A00CA817B /* Project object */;
+}

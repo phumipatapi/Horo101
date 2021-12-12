@@ -1,2 +1,2 @@
 # Horo101
-###Fortune teller application
+<h4>Fortune teller application</h4>

@@ -1,0 +1,2545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B546CFC7BC0F687D40B7246064ED9D /* plugin_trace.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6CC63729635FE1BC9E795DDACDD6DA /* plugin_trace.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		01E8678B3C2DAFC5A8A0104180928C22 /* MonthsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E631052F3BCA1CEAC8A50756FE18DA /* MonthsCollectionViewCell.xib */; };
+		047567BB8C722AB043A922A8797F81AF /* DatePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB1C5BB5310885E8AAC4B9352A5286BC /* DatePicker.bundle */; };
+		05FB9FD6293F7BBEF23E35863EFCF28D /* EasingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A22DD0D8DA6DCB7DD65BDE913835CB /* EasingAnimatable.swift */; };
+		067C3F1528684D11245ADDCF3746D988 /* mysql_thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 087E1617DB73A7CCBD57DDCE3A881407 /* mysql_thread.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		06AEDF225D90D7D86A86F20CD3423331 /* decimal.h in Headers */ = {isa = PBXBuildFile; fileRef = A0558AB63D66D14B6F3E8BA198F0E686 /* decimal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0C1E118A9F817E48D39EAD744DB52EC3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049FD1B376A26006BAC3301506C45BA /* Color.swift */; };
+		0CD6F85F531988628B04B3651F2D59BF /* OHConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F20AB8CC54AC047FF48597B12F19F2C /* OHConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E46079B7A70C2DD2F8F76385CCFCD97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		10288FF239499F03CFE552CB730DE9F8 /* DatePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E445C24C9B4F7E1401F7E24F01F539A /* DatePickerHelper.swift */; };
+		113246517365BC6B53B8CD3DF63C7BCB /* sql_state.h in Headers */ = {isa = PBXBuildFile; fileRef = ED1E07CDEC5D18C3A7367D1556EB4A07 /* sql_state.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		13DD8455BDF1BA6AEA0C4C0D48F7E5F0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65445E7836DB06B547511BF89A70C991 /* UIViewController.swift */; };
+		142D5D280048D1464688EE810BF838BD /* YawRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FEEEEB9E78C52E281DEEA79B7ADDD /* YawRotationAnimatable.swift */; };
+		15C3AE52D766B5A05D8B82C5F4EA80E2 /* mysql_sp.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B430ABEAD114345083055E8B738728 /* mysql_sp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		19120B5379BEC10E17A15ADF422FAC8F /* OHJoinConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3448AC8A74DF3CD001EA025A85D88F38 /* OHJoinConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA8F91974CADB6F7962D02885A3D2A0 /* mysql_ps.h in Headers */ = {isa = PBXBuildFile; fileRef = 662218F8162694627919AD55FD7A4089 /* mysql_ps.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1D4C421CB7E1CDA2A32FD8835E395D16 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D50182D20CCD317DC459A818D8783A /* UIApplication.swift */; };
+		1E1C53151D1B13DDC04CCA4E81790D2B /* Extended-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E86AD3A492A1C72ED69247880D69A7F6 /* Extended-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9A87C9073DC8D74B5675A044C4BEC5 /* OHMySQLQueryContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 857852957E2928D32D06EDDAFE292DFE /* OHMySQLQueryContext.m */; };
+		20FC7CD1B05F1A7650B3B69C3C0FAD10 /* Pods-Horo101-Horo101UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD73AF9DA4E0DE8363AE29486F54D9C /* Pods-Horo101-Horo101UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21CD2879B82C5215F398A724067A31F8 /* my_thread_local.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC968FDDE847B7BE39DA4733E51E6FA /* my_thread_local.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2301813176F7187CFDE84C40C1FD8B88 /* YearsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB9EA5AE2EA2FC8AD35206D5DC3B5B8 /* YearsCollectionViewCell.xib */; };
+		23F51CCDF94CE69DD9B210915E3A21A8 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F052A6051FA230CEC37435CA4E4D49 /* UILabel.swift */; };
+		24CB3D20088669831BB7335B8C21CB5B /* DatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E50212E26B9CEB4382D013471646EC /* DatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		273F185964C4E9201297BF756022FC23 /* DatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC0ED857E5F512891E8D8908092D483 /* DatePicker-dummy.m */; };
+		2BC98A99502EAD1AE1F6962E14AC5A46 /* GeminiAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870F1D02183F82F3521CD39B1B7D62A /* GeminiAnimationModel.swift */; };
+		2F260267453AF91B84F10232BEE61218 /* plugin_auth_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCA51248800076A39676FA98F85F1FA /* plugin_auth_common.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2F2D5E89B3604AF7AFD47D3036023310 /* OHMySQLUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 231C72EDBCDC3B037C7468281C725499 /* OHMySQLUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F91ECF30B336F8F25CB49D70CE0CF3E /* mysql_file.h in Headers */ = {isa = PBXBuildFile; fileRef = E578B7601791B476B8FC8738C6556BF1 /* mysql_file.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		30843F8E73689D16CE4F72F38761B5A9 /* typelib.h in Headers */ = {isa = PBXBuildFile; fileRef = 94ACCE63A8BA2359BEA867325B6E94AA /* typelib.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		31B3A74CC60939CBA6C119E8C83444A9 /* sslopt-vars.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1E0F8BBA02DFCDAA59B5D680463291 /* sslopt-vars.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3227A96AABB11C8E34194ED1CEC32840 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240F968124C377728E2F2E2770CCC22 /* Date.swift */; };
+		3511025E13FBE6997741DD69BFB8CF21 /* sql_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5885EC714552F85E4DD9CCB7EF9E80 /* sql_common.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		362E5F33E31735145DDA774DED3C1F74 /* get_password.h in Headers */ = {isa = PBXBuildFile; fileRef = 558A9E78AE376B819CAF9368E846BBCC /* get_password.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		36CE097170B5FAD356597AC65FEE30C0 /* client_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F8F6BEDCEAE8297260D0D12C93FA09 /* client_plugin.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37E5D071D6368C27F0227856F9F59039 /* GeminiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CDE9E0939E0B2D8E0D887F04FE83DD /* GeminiCell.swift */; };
+		3A05325C0022BEFF6AFE524CBF418272 /* NSString+Escaping.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D7F16F4F842B659367F7C7EB337479 /* NSString+Escaping.m */; };
+		3BCE1AF453A48560FF6D122AC4A4C79E /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF928BCA85FB9B7759355D9C78F4B6F /* Map.swift */; };
+		3D864F81DDD675F725EC2FC310F831D8 /* CenteredCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E99EA995644B712B732B1EDEE0F309 /* CenteredCollectionView-dummy.m */; };
+		3ECFF69A071F49B6C6CC70DACFF74387 /* NSString+OHSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D8B052356705AF617D87E3F850C555 /* NSString+OHSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7ECF1B43161B03BEB8AC1A7265D1AB /* OHMySQLQueryRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C32BDD24DFA4E4AEC5C0206096D3DB /* OHMySQLQueryRequestFactory.m */; };
+		40266BF5FDD5DC1BBF1C9AC152EF8D1B /* sslopt-case.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF3D0551BE2034CD8BD9A1645DCF4C2 /* sslopt-case.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		421C805B809A2B9A19DBDF42C315331C /* YearsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D92272B6B632DF2E5C242E3245EC4 /* YearsCollectionViewCell.swift */; };
+		42FFD2F6656561EEC98F07FCDFEE3F32 /* mysql.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6738FE3BFAE35ABD50889969DA65CC /* mysql.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		456C61893DF62BB66984686917E98540 /* Pods-Horo101Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D0039B5E6A4B10C2E1900743F7FB5A /* Pods-Horo101Tests-dummy.m */; };
+		457755386A05F86E85BB5310C938C2F2 /* Gemini-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5D72496F9F21FC1440A2F82EC4EDA /* Gemini-dummy.m */; };
+		45F2AEBA571A3FD5DE4419782E96972A /* mysql_com.h in Headers */ = {isa = PBXBuildFile; fileRef = E44D023B45F60916F0DCB6B276266141 /* mysql_com.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		46114BE42ACC2D40EB22AEE93F28923A /* OHMySQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CFD9B7A1FFA77C870DBD6B350B3CAB /* OHMySQLUser.m */; };
+		4621A95DB7D9B3A07C0DB6FAEC68F138 /* OHMySQLQueryContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D794CDF930AA45E0A1E992DA94A77DBF /* OHMySQLQueryContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463008CD376658E54198166476191273 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4190987903F092E650C4F1D7F83AF53 /* DatePicker.swift */; };
+		471A49D1A2C1FE318DDA398DBC86245F /* Extended-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B070271CE5A91F227BA8DF49A2DFFF /* Extended-dummy.m */; };
+		495FC41C10FFC231BD1212D5AD1D4F95 /* m_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC130E4E8B3ACCDD3C3F5B41575DF83 /* m_string.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		496460DCABF803C189AD212338717190 /* m_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 458F9939C49AAEF4E5F5A24BA6D4B619 /* m_ctype.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4B59C3F9A08840533D862C80228DF55D /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912EA6D8BA8498F892BA520398662BA1 /* ButtonCollectionViewCell.swift */; };
+		4BC9D0E157E5EFE3EB9B63957B55AF4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E341C6BBED69EAAE4BFB781F4E804F56 /* UIKit.framework */; };
+		4D1269397F24A8192F0C5D45D2D55B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		4D2F941E57AE0BC1E5A69524DD7F0354 /* PitchRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089F20F5254C74D5FCB7B45AF794951 /* PitchRotationAnimatable.swift */; };
+		4DD6DCEF8081B06AC9A8160FAB4363A8 /* NSObject+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F7FE57D703C4306AE4F809392BB07A /* NSObject+Mapping.m */; };
+		4EA06FC9044511C55BCB5B4AE03982F1 /* mysql_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C6DB9EA720F55C7F699E530648AAC0 /* mysql_memory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4F203F93EC5C4F8E8389C18E23EBD336 /* ScaleAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F376E0F835114F9BE06063D8A80BF31 /* ScaleAnimatable.swift */; };
+		4F532C4DBE75E0119B58A6E1D4DC9DCB /* byte_order_generic.h in Headers */ = {isa = PBXBuildFile; fileRef = 7581EE0437D6738D583A8C6FB0F8196D /* byte_order_generic.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4F71301967F8B9B40B1E2AFB99111D5A /* OHMySQLQueryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 986BE7F68C7E5017D86E362619D2F182 /* OHMySQLQueryRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5175A088A1068CE18BD249D2F8E34A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		54B59DC5B10F82C09A5153A2DF5EF843 /* OHRefreshOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = D67D63AD24FF1E05DDC40A573303930F /* OHRefreshOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5805C8DE182CDA1138D2642D4AF54E38 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC519BA259E7C7990D07B71C4BCD75AD /* Fonts.swift */; };
+		582085914D295165DD714E73CE9F55C0 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919CD30551E214EAE3FFB48122D62D45 /* Double.swift */; };
+		5E93D248D94CB5A0CC429D72B88E2985 /* psi_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F42F1CEC764B10C5CB871CB377A9C35 /* psi_memory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6005CDF3DD1030EBA80EE7D44EB80300 /* my_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = DD3C6F9A676EB70695D77BBCDA3FCC1F /* my_sys.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		62DF8AA810BE9CDCE93917794EAA29AF /* NSNumber+OHSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B82DF42C13809189ADB4973C6ADA44DA /* NSNumber+OHSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F33D48CF1D3FD5ECA228E22DA9EB42 /* Pods-Horo101-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CEF01D60DEE6E6EB09A0F1BE447011 /* Pods-Horo101-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6501315DE26BE0FFE3210E0C493E7760 /* client_authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DAD167D664CDE1528EF670713D0B7A /* client_authentication.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		664237F44F9A9ECE3394D4089CC939A3 /* thr_cond.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB48E70C498CB3ABB0422E07CA28D29 /* thr_cond.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		67367C95022814B451818D7DA966B39F /* CustomAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0D6A71900C9B02AEEBF567406DF8E /* CustomAnimatable.swift */; };
+		68AC7600925DE220AAEBA3BBA81FE701 /* OHMySQLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8A49F66DD80D8ED607A2B1D20D5645 /* OHMySQLSerialization.m */; };
+		695891B704993218B871A40E09A1E9D8 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1E1FBF4FA40E64450EC22A4C550AB5 /* Array.swift */; };
+		6EE7F42B88F981956ED6EA24FE060AEF /* mysql_embed.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FDA6863CC0C564CFD3FDCDAC1F4ED26 /* mysql_embed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7449001AB0C0DD1AB981F46B887F332C /* mysql_statement.h in Headers */ = {isa = PBXBuildFile; fileRef = DB02C8A8F5ADBB321E3FBDB4643066EA /* mysql_statement.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76C1BE5087E110A2F30165142F2529AD /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D22406D98EB60A6653C196D990220E /* EasingFunction.swift */; };
+		79DD94D0E8AAEADF703ABA58D0DF73F6 /* OHProtocolType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6BD3C9415CDBEC3C6BCB328F1E1C22 /* OHProtocolType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A35B9506FE72538A9F9C64CBEEEEB25 /* service_my_snprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F28CD448E58E41A48A8FE05F5B77D6 /* service_my_snprintf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7BD6F1A7BAFAF1259018A256AD049B09 /* service_mysql_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4B1E8C4162B0263BFC71E04616E450 /* service_mysql_alloc.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7CB15D5F4D2BEC59747D59E267DAEBBF /* mysql_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 31337FE89A50748A1512DA882B25F4A5 /* mysql_table.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7DEF75CA2D2D0AB2FECA501A0EEB5D5A /* NSString+Escaping.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CCAA2C03F5BD10935A19287CCC790C /* NSString+Escaping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E58C9E93052F95611488AC3B48F1741 /* DatePickerColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977F4B67D22B37319DD837B2BE86EFFC /* DatePickerColors.swift */; };
+		80FAD3F88624470F7458AFD8AF3E7285 /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9E8E61C59773CEB3D538D0070BDF5 /* DaysCollectionViewCell.swift */; };
+		8481AF61ECD90E46926ECF0F09D95451 /* psi_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FD33D2172E60C65CC15C3D650D53D9 /* psi_base.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85B27EB436ACCFA2565BAF454490766F /* mysql_time.h in Headers */ = {isa = PBXBuildFile; fileRef = CF982058E4A790DDD3ABB77ED1FDD1D2 /* mysql_time.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		863D027754593DC7EDD79424E81AAB93 /* CircleRotateAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37290EB19F54BBC1982595B0D236315 /* CircleRotateAnimatable.swift */; };
+		8675BDAD0197AD032F88EE838C8C66EE /* byte_order_generic_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E1B38777CD94AE4681A88674589D7A /* byte_order_generic_x86.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		885D59F337F85839B55F5BDAFE9C81AC /* OHMySQLStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 863872413F5E447D5E2AC2C7C24CF306 /* OHMySQLStore.m */; };
+		88C2DE224152FB302F50105ECFBB0492 /* mysql_version.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1818805456ED6284F63E67A154557E /* mysql_version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C71582DAB763A370732EEA77E5990A5 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE520C1B7CC86B3EF9CAFF7299F901 /* Int.swift */; };
+		8CE18A60C54C9F807A45B76127273CAE /* YearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD12DAD4698AA0B572B611BE490AFA35 /* YearCollectionViewCell.xib */; };
+		909EF5A73EB9DBC79B385B787B1D83AA /* my_dbug.h in Headers */ = {isa = PBXBuildFile; fileRef = F77562131DE1FEEF218A2703AD74FF1E /* my_dbug.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		92A7B27AE36742717A18891C4C3C68D6 /* errmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D038F5765CB83ACFEB8A0387153988 /* errmsg.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		93C4FD03E6AAC5AEFE31EC4845117BF8 /* OHCharsetEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F69C5F66CAA64A5120174CA382C34D /* OHCharsetEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941D144549F3EB278F2B41B3A969F80A /* my_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFBBF1552F418CEFFE6C48539E0A923 /* my_alloc.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		94DED50B7E51FF3FBDE88B1CB9059FDD /* OHMySQLStoreCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = A51AD9EBBC5458CA01210BAAF544D021 /* OHMySQLStoreCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A9A07CB261E740146CF83F12FE2B94 /* mysql_com_server.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5D9B452F6223BAA18494B38BEB788D /* mysql_com_server.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9667C4192F7DE794CC15F20721F52F39 /* OHMySQLQueryRequestFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E5D21E497AA8057E0B69FB7C1C031C /* OHMySQLQueryRequestFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96866903CBB09630043FA958D95F86B0 /* my_dir.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BE6C650447001BFBF9D5B8DE80EEA7 /* my_dir.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		96AD7FC2E1320077AD4723B0B03C6E22 /* my_config.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C7D2392516AB3AB36EE66B153B1DFF /* my_config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		97C5AE9E4ECA09A175D50BF5E758FB61 /* OHSerializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E9346B1BBD6139B26880CC27CB307E50 /* OHSerializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9884328FF17DECDF26FAA84158AF92A0 /* OHCharsetEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3DE4E649748507C58FC6C1DD134363 /* OHCharsetEncoding.m */; };
+		98E25D711C71610C6DDF3F9CA14A1769 /* ButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 955C3F69876DFED0B99228612B434982 /* ButtonCollectionViewCell.xib */; };
+		9BDC9CBF088BB0CED924F816ACC5EFC4 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD44E87D4626E10EC1296D0B3ADE158 /* UIImage.swift */; };
+		9F3F23545E9660F0E3613A01765E7CCD /* CubeAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180D240239F5D999405307161212D5 /* CubeAnimatable.swift */; };
+		9F91E255691737ECD97D6469EC50B045 /* mysql_transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = E796BFBA8F74B2F512427288A7FC9537 /* mysql_transaction.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A1D0FC543770F1939FCAF6D2620281E4 /* mysql_stage.h in Headers */ = {isa = PBXBuildFile; fileRef = 967F90FF71A44E3D2A2D61E0446F66ED /* mysql_stage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A1EC7268E2EDB70A2EC3203ED0420FD5 /* NSNumber+OHSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B979A2342747F61BC54E6F57180390A /* NSNumber+OHSerialization.m */; };
+		A1F2E1A33C4F95073E5F68F888849F17 /* OHMySQLStore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED180B0BB40D53A95C1F18995E1D4843 /* OHMySQLStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A21325A740B869886C08C30D2B10A56D /* my_compiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 057115720F308733D0FF789B3364EB4E /* my_compiler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A2AAC50C345806EA0D59A8EE90231AF1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1144BF4D9E93F2986845AA6A59AE8CE /* UIViewExtension.swift */; };
+		A450283DCF941BBFA52EDAC5289A8BEA /* binary_log_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 2679D5D05517AC3E4916503A20A54EED /* binary_log_types.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A485616DD87415C5BE4AD4A5F1AA47AE /* MonthCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AAF578C3420FD0A134EC4158E63754 /* MonthCollectionViewCell.xib */; };
+		A67B355298240EF597FB5B80B67029D2 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4167C4F67D492F3DC109AD875CE0D5 /* DayCollectionViewCell.swift */; };
+		A68FA9D283C2FD2D8483F693E2A176D1 /* OHMySQLStoreCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E58CFFAEFE9941A698D96A3A6B60865 /* OHMySQLStoreCoordinator.m */; };
+		A717D8899A5BF391791350A2D112BBDA /* big_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 9572B52DD8508AABDEC285E40D2F4D8F /* big_endian.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AA33945BE95139CF43C2BB17A00AC357 /* OHMySQL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D095EE433D15E3D2EF0C67D5520B844D /* OHMySQL-dummy.m */; };
+		AA34927E30C53FD4F6F20CB467B5196B /* my_list.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E1022C9E2B05268A6B01525B1C95FD /* my_list.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AD8FAFF23D4F2F165F00391687A6315D /* psi.h in Headers */ = {isa = PBXBuildFile; fileRef = 56461F8214F1FCD7DE04CDC3F27E95F1 /* psi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AECB71D69657219B919D2943CD19245B /* OHMySQLTimeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 61306170A8171EC7871B7423E3D3BE04 /* OHMySQLTimeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0763B08539B0F79D8254AFA66A375E /* my_command.h in Headers */ = {isa = PBXBuildFile; fileRef = A028D0B756EE19976DFD6311BB999BFF /* my_command.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AF96C5E4BBC8800EA0E1AB3B1E9F31D4 /* OHSSLConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C8604D5A1176A51452F18F51202E4A96 /* OHSSLConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B163C84DEF7F3B1A44B5B5E348153175 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922CA96CD803CDDA6D3F4F1520078368 /* UICollectionView.swift */; };
+		B1E29AAA84112A4E0ABC607990E0F41A /* DayHeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E255A1E6EBA1E21456FF67FABE57E /* DayHeaderCollectionViewCell.swift */; };
+		B21589129660B7C8890B375401DDFE97 /* mysqld_error.h in Headers */ = {isa = PBXBuildFile; fileRef = 1918EAAFB36A02E9D06626BFBBD45429 /* mysqld_error.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B254DE92F0DF622DA8352E0F1E52882D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16BE11AC103AA782D19377A6B79FE22 /* UIView.swift */; };
+		B5A10580A561DCE1A2233E35EC0B6F96 /* GeminiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063B4DF772C2B26D764978FAAF5395C /* GeminiCollectionView.swift */; };
+		B776C9EDD2413F13B8F89088461E4C0D /* DaysCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9112B49692483BECFB95227E10AA6AFE /* DaysCollectionViewCell.xib */; };
+		B9F3FAEB3137EE8A5E3F47C14C5F2F03 /* my_global.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A20D336E1F2E47556E0344368BA52F /* my_global.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BBBF060F6CC86237D93587F874376853 /* thr_mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = D87A6B2D0360FF31AD6CF938F8AC45D8 /* thr_mutex.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BC5094802548BD1CF692756707D0D8E9 /* OHLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E3A121DE0A11B73DE5F5776528D6B8 /* OHLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB6D5CC0466F34EC029651C1A9AF256 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BA8B86E58D4AEED47DBA935878CB6 /* Collection.swift */; };
+		BE2B0386614E667D273BCC058B1CB2F9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D6B83527194F0273CFF99A19E270A0 /* String.swift */; };
+		C2FDC1E6EF1C09CBEF582876CB00A48C /* NSData+OHSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3139AADC914AE9812DC3F4E573932A29 /* NSData+OHSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C499E8EE01461F399EC151A2B880E9F5 /* Pods-Horo101Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E8C36F84CAA7F9DF2CF91F718981DD /* Pods-Horo101Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C510B3C2C8B502B1134AEAFDB7DA10E5 /* Gemini-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA0669AEBE07E2576668990C8723A26 /* Gemini-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C79116E6D4CC938BF7DC19CEAC487985 /* Picker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED94F9587F516840ED5615F4AF52D93 /* Picker.storyboard */; };
+		C879BE0E77FE64A016D4EE841702577B /* OHMySQLContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A11435CE30250820B2B0EAC97E7C7E /* OHMySQLContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9295F99EACC06FE9B49BEE051371A3C /* MonthsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E801CD06D79B5B92E1A6DC1E001EFFE /* MonthsCollectionViewCell.swift */; };
+		C990BD8F20C064A707AFFEDC64D8A8C9 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0720DE20FB12FF33F5CFE67683E4E07 /* PickerViewController.swift */; };
+		C9C21B65C066C381BABB0D3CC0246972 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1864950A88B9047AF3B97C46197773 /* TimeInterval.swift */; };
+		CA23D066322BCFB7E6EC658E1ADBE62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		CABDC21F6BCAE55DD91D98FB15D6F2BF /* RollRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D48F86C3B86AD1F2DEADF8BDDF935F /* RollRotationAnimatable.swift */; };
+		CB1D2C96308C3E6A4363572D891CE040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		CCF03FB9FFEB505B4C1316317A696EBF /* DayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59EA1D099081930EC9E3ABDD54DA4AF0 /* DayCollectionViewCell.xib */; };
+		CEC2E9DC76531DD6C836287D7EAE488E /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DEFF28AB819BD255287B73007659E7 /* NSString+Utility.m */; };
+		CF7DD2D0182403FC5432793DCD30A6CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		D293B7E3A354B0F51124A148C30C824F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		D333E32D55E7B1E59AA7EFCB989D882F /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B26FF050E8B65A8826DBFC9BB3C336 /* DeviceOrientation.swift */; };
+		D41FFE4174591E2EAEA0D9FF1E96AD5D /* thr_rwlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BDA4D39174EE840883B41B6F8476C2 /* thr_rwlock.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D61B5860091F90188A125D942FEB7906 /* OHSSLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 23828FC97554A18F97C02D1F54162CAD /* OHSSLConfig.m */; };
+		D6225EC558EF8AE0E631D81341BAB795 /* my_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E196C629670ED0C4B0FA61B2C3B9EA1 /* my_xml.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D63D7927B07FD99B4107E40871BF7592 /* mysql_mdl.h in Headers */ = {isa = PBXBuildFile; fileRef = C776B4C0406564F40A62D85ECD28ED75 /* mysql_mdl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D65C5A2E8CEFAA28F4C90697A8931815 /* my_getopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B11A099A243865533836E306C5BC8 /* my_getopt.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D69236995D1DF170AEBDB94007A7E44F /* YearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961FC8B712811D664B7F4F8537F7119 /* YearCollectionViewCell.swift */; };
+		D7C73359EAEBCDC34F2AA7A10DA005E8 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E580ED8F66E8D370A36CD4D651DA524 /* UIScrollView.swift */; };
+		DA297D9EC5FA455E855BE384C92CAFEC /* OHJoinConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECA71034C7AC142E70863A6EA7DB1F /* OHJoinConstants.m */; };
+		DB3D001421B6EE4631C7F77882D632DD /* MonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA8C659F45CF96B7F63B38F5EDAE6F /* MonthCollectionViewCell.swift */; };
+		DB7515AD538361B0A6E6368A155CB563 /* sslopt-longopts.h in Headers */ = {isa = PBXBuildFile; fileRef = 28177505CFC85C035DECB707F21C40E5 /* sslopt-longopts.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DB860D98F5F1523CE71B49D880B330A0 /* OHMySQL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D470D46592E06EE6E98197CD396A947E /* OHMySQL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE87ECAB93B21749969B2C63FE3ED3F0 /* UIAppearanceAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103F2BCE372F9B3D500FF0CD59A5FF74 /* UIAppearanceAnimatable.swift */; };
+		E07DEB6A81DC36C70FC97B580DA75406 /* mysql_idle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0574DCA6CD42751BE7513C30A5EA135B /* mysql_idle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E2569E6D4DF391CF87319A3D3F33C4E7 /* keycache.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BE2D3B5935C8EBE9A58497DFC18FB2 /* keycache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E27C24C7E0F4A3F5363572B51C8139A1 /* CenteredCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A74068D1E667E88296459FC90A891 /* CenteredCollectionViewFlowLayout.swift */; };
+		E34B6BDCC3453809981421E46A89B460 /* OHMappingProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD85B5FB26B5C71F310989557CAD46B /* OHMappingProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3BEA23FE665466355D08297629B27D7 /* NSData+OHSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3379269864565FD13ED500250F7ED9 /* NSData+OHSerialization.m */; };
+		E4105D1358A1CC04806C4453F28F221C /* OHMySQLQueryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FCC09B2DAB2F1CED22F3E98B41A0D /* OHMySQLQueryRequest.m */; };
+		E69A9B7350642E1BB97623E925F7566B /* little_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 60863BA5D4BD274BAC1DF6B5B944A5DC /* little_endian.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E7EFBF9FA2960130C266A0CDB0E7DCE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310404255FDBE440C5A361BD011128B /* Foundation.framework */; };
+		E93BC3423FAABD2D72F4F6BABD0F4189 /* Extended.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2197EE526496A64F9ACFC9B4236F4A06 /* Extended.framework */; };
+		E99F6DD1ED448987744E4C71D1E30101 /* CenteredCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9079F0423F0B3F12CA05A1BD5749C59 /* CenteredCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA35B998B0F4F37A7452CFDED85839FF /* OHResultErrorType.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E33C94366B659BB2492DFB0FCC0094 /* OHResultErrorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAC6C3A94BC9FEE0EC094607566969E1 /* OHMySQLContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6727DBDCD57961C26BC6708B0D2453 /* OHMySQLContainer.m */; };
+		EB9BF8F1EB2FD2B1AD1DB67CCA4763B3 /* FrameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A63528C2419BA10859EA7AF9FE04641 /* FrameHelper.swift */; };
+		ED83345166E10D1FB2880AB6737F7172 /* mysqld_ername.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA37242CBC317D096F7EA84EB486BC2 /* mysqld_ername.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EE3A6EC100351C7F9654F5638CA2930C /* DayHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05959939EDF89249DA8BDBE2AC3FF1C0 /* DayHeaderCollectionViewCell.xib */; };
+		EE8114861B9841FABEF2DF07C40CEEE9 /* NSString+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 61045FE8EFB5241A58411694F179F312 /* NSString+Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DA3829BFBD59317C506BC4DBFC563C /* NSString+OHSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1033CE57B8C2DE9C82728E0EDFF7F072 /* NSString+OHSerialization.m */; };
+		F51C6C58083ED24003C2B359379408BE /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471358FC838787CD9E48CDF43AEBED3 /* NSAttributedString.swift */; };
+		F86D9BFA86B8FB0BCF87E1A844863732 /* OHMySQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 802EAFE0E04998A634A7060C95FBE165 /* OHMySQL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F982A946B829D4AF9AF852D68FDC3A8A /* OHMySQLTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E14B9DAE89EE8A36D6DC5B389AFD230 /* OHMySQLTimeline.m */; };
+		FA826300A36F34935F5DFA7C64920E6F /* mysql_lex_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9AF39CE440623B7CD5823310EBA22A /* mysql_lex_string.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FB0D64E1CBAA1D9E596C0578BAEBE8BC /* OHMySQLSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BA80D536FE39D6848C936F69BFF4D373 /* OHMySQLSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC65871FBF3039E32226D139E8597FD1 /* NSObject+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = CA68A286052CDD91865B306CB8FEBC0E /* NSObject+Mapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC957E3E743BB156CE99AA12A9400C76 /* Pods-Horo101-Horo101UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AFE6A2A2F39FA12E939C74FE5648C /* Pods-Horo101-Horo101UITests-dummy.m */; };
+		FCB39E37B3A2B6862D481A5D53EDBCF5 /* my_thread.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AC82D1DDB9DDC1BD05E9E90D596256 /* my_thread.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FDE42D730DEC8474F0735FB121EAC03C /* Pods-Horo101-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 428433C8E273AEE555B53814F6FF3706 /* Pods-Horo101-dummy.m */; };
+		FE7F13AD197EB5085A656131A7BD5C1E /* mysql_socket.h in Headers */ = {isa = PBXBuildFile; fileRef = F9515AFD0C9F603B89DB1A7D825B29C8 /* mysql_socket.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FF026C7E0CF8A511BE11FB8A33C26B05 /* my_byteorder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB381A023A3D9208EFFF809C6ABA069 /* my_byteorder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DEFC7172BFB33EEBA5EF3982EC5FB30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523C0639A1C4C93383B4DF83058D0094;
+			remoteInfo = OHMySQL;
+		};
+		1B37BE6A6C243957341047AFD0A884DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D03285C71FBD21C064499AA989B0AF;
+			remoteInfo = DatePicker;
+		};
+		47B0878C0FF0EB0D56FCD1317B9AE55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7D3DDB405C253FAF371BB83FD79FB8;
+			remoteInfo = Extended;
+		};
+		5C2054C526268A240A9998CA1CA0C76A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7D3DDB405C253FAF371BB83FD79FB8;
+			remoteInfo = Extended;
+		};
+		5D08245374226693A24AD60AE777157E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E5167DD6A18C0BBF309695BF1026AD;
+			remoteInfo = CenteredCollectionView;
+		};
+		8E06E5D4F73B5481B9EC7F29D3DBE0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DE2D8DE28E245635DAB3E837F59E341;
+			remoteInfo = "Pods-Horo101";
+		};
+		A69B00729BE8FA9E9A8B1BA1FE419676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7D3DDB405C253FAF371BB83FD79FB8;
+			remoteInfo = Extended;
+		};
+		AFDE9EFCEF2C1701F08A34285077644D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50B7647DB2B3FA46E0134FA33876E4A;
+			remoteInfo = "DatePicker-DatePicker";
+		};
+		BC8264798ACFC96C6A9B262033B22CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC3B95F2D31FE0816D1936AFDFC4F5;
+			remoteInfo = Gemini;
+		};
+		D5715FB150DEED8509749B368AF9DBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E5167DD6A18C0BBF309695BF1026AD;
+			remoteInfo = CenteredCollectionView;
+		};
+		DB620B180CE18EA872874DE7D674D1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523C0639A1C4C93383B4DF83058D0094;
+			remoteInfo = OHMySQL;
+		};
+		E9C0436E32478F7E11C47447AB32E44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC3B95F2D31FE0816D1936AFDFC4F5;
+			remoteInfo = Gemini;
+		};
+		F0D40B340B360CE7FB8D47FE375FA6B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D03285C71FBD21C064499AA989B0AF;
+			remoteInfo = DatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0063B4DF772C2B26D764978FAAF5395C /* GeminiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCollectionView.swift; path = Gemini/GeminiCollectionView.swift; sourceTree = "<group>"; };
+		01E7A256FBF9BFB8421ED67FDC367442 /* CenteredCollectionView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CenteredCollectionView-Info.plist"; sourceTree = "<group>"; };
+		02BDA4D39174EE840883B41B6F8476C2 /* thr_rwlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thr_rwlock.h; path = OHMySQL/lib/include/thr_rwlock.h; sourceTree = "<group>"; };
+		02D0039B5E6A4B10C2E1900743F7FB5A /* Pods-Horo101Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Horo101Tests-dummy.m"; sourceTree = "<group>"; };
+		037E22B89B33BD407BD0EF1A3323F2AF /* Pods-Horo101-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Horo101-acknowledgements.plist"; sourceTree = "<group>"; };
+		038DD96289C1D3624624721B7AB8ADD1 /* Pods-Horo101-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Horo101-frameworks.sh"; sourceTree = "<group>"; };
+		046B11A099A243865533836E306C5BC8 /* my_getopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_getopt.h; path = OHMySQL/lib/include/my_getopt.h; sourceTree = "<group>"; };
+		05335B394DA3DBD66FE98688414EBCDF /* Pods-Horo101Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horo101Tests.release.xcconfig"; sourceTree = "<group>"; };
+		057115720F308733D0FF789B3364EB4E /* my_compiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_compiler.h; path = OHMySQL/lib/include/my_compiler.h; sourceTree = "<group>"; };
+		0574DCA6CD42751BE7513C30A5EA135B /* mysql_idle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_idle.h; path = OHMySQL/lib/include/mysql/psi/mysql_idle.h; sourceTree = "<group>"; };
+		05959939EDF89249DA8BDBE2AC3FF1C0 /* DayHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DayHeaderCollectionViewCell.xib; path = DatePicker/Classes/DayHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		05DEFF28AB819BD255287B73007659E7 /* NSString+Utility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utility.m"; path = "OHMySQL/Categories/NSString+Utility.m"; sourceTree = "<group>"; };
+		07E5D21E497AA8057E0B69FB7C1C031C /* OHMySQLQueryRequestFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLQueryRequestFactory.h; path = OHMySQL/OHMySQLQueryRequestFactory.h; sourceTree = "<group>"; };
+		087E1617DB73A7CCBD57DDCE3A881407 /* mysql_thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_thread.h; path = OHMySQL/lib/include/mysql/psi/mysql_thread.h; sourceTree = "<group>"; };
+		0B6727DBDCD57961C26BC6708B0D2453 /* OHMySQLContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLContainer.m; path = OHMySQL/OHMySQLContainer.m; sourceTree = "<group>"; };
+		0D6BD3C9415CDBEC3C6BCB328F1E1C22 /* OHProtocolType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHProtocolType.h; path = OHMySQL/Constants/OHProtocolType.h; sourceTree = "<group>"; };
+		0DA0669AEBE07E2576668990C8723A26 /* Gemini-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-umbrella.h"; sourceTree = "<group>"; };
+		1033CE57B8C2DE9C82728E0EDFF7F072 /* NSString+OHSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+OHSerialization.m"; path = "OHMySQL/Categories/NSString+OHSerialization.m"; sourceTree = "<group>"; };
+		103F2BCE372F9B3D500FF0CD59A5FF74 /* UIAppearanceAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAppearanceAnimatable.swift; path = Gemini/UIAppearanceAnimatable.swift; sourceTree = "<group>"; };
+		14BE6C650447001BFBF9D5B8DE80EEA7 /* my_dir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_dir.h; path = OHMySQL/lib/include/my_dir.h; sourceTree = "<group>"; };
+		172EE39C297F82E850BD91E0CA6CE31F /* Pods-Horo101-Horo101UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Horo101-Horo101UITests.modulemap"; sourceTree = "<group>"; };
+		17E99EA995644B712B732B1EDEE0F309 /* CenteredCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CenteredCollectionView-dummy.m"; sourceTree = "<group>"; };
+		1918EAAFB36A02E9D06626BFBBD45429 /* mysqld_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysqld_error.h; path = OHMySQL/lib/include/mysqld_error.h; sourceTree = "<group>"; };
+		1A5885EC714552F85E4DD9CCB7EF9E80 /* sql_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sql_common.h; path = OHMySQL/lib/include/sql_common.h; sourceTree = "<group>"; };
+		1A8A49F66DD80D8ED607A2B1D20D5645 /* OHMySQLSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLSerialization.m; path = OHMySQL/OHMySQLSerialization.m; sourceTree = "<group>"; };
+		1B7E271D4BD2857CA801BA879EC6AD7C /* Gemini-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gemini-Info.plist"; sourceTree = "<group>"; };
+		1B979A2342747F61BC54E6F57180390A /* NSNumber+OHSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+OHSerialization.m"; path = "OHMySQL/Categories/NSNumber+OHSerialization.m"; sourceTree = "<group>"; };
+		1BB9EA5AE2EA2FC8AD35206D5DC3B5B8 /* YearsCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YearsCollectionViewCell.xib; path = DatePicker/Classes/YearsCollectionViewCell.xib; sourceTree = "<group>"; };
+		1CFD5CCACFF7D3D88ED314C87D83B956 /* OHMySQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OHMySQL.debug.xcconfig; sourceTree = "<group>"; };
+		1E3379269864565FD13ED500250F7ED9 /* NSData+OHSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+OHSerialization.m"; path = "OHMySQL/Categories/NSData+OHSerialization.m"; sourceTree = "<group>"; };
+		1E580ED8F66E8D370A36CD4D651DA524 /* UIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollView.swift; path = Extended/Classes/UIScrollView.swift; sourceTree = "<group>"; };
+		1E58CFFAEFE9941A698D96A3A6B60865 /* OHMySQLStoreCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLStoreCoordinator.m; path = OHMySQL/OHMySQLStoreCoordinator.m; sourceTree = "<group>"; };
+		1FDA6863CC0C564CFD3FDCDAC1F4ED26 /* mysql_embed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_embed.h; path = OHMySQL/lib/include/mysql_embed.h; sourceTree = "<group>"; };
+		2026D3273D8B65DDAC25247E99185E27 /* OHMySQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OHMySQL.release.xcconfig; sourceTree = "<group>"; };
+		217FCC09B2DAB2F1CED22F3E98B41A0D /* OHMySQLQueryRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLQueryRequest.m; path = OHMySQL/Models/OHMySQLQueryRequest.m; sourceTree = "<group>"; };
+		2197EE526496A64F9ACFC9B4236F4A06 /* Extended.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extended.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231C72EDBCDC3B037C7468281C725499 /* OHMySQLUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLUser.h; path = OHMySQL/Models/OHMySQLUser.h; sourceTree = "<group>"; };
+		23828FC97554A18F97C02D1F54162CAD /* OHSSLConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHSSLConfig.m; path = OHMySQL/Models/OHSSLConfig.m; sourceTree = "<group>"; };
+		24B430ABEAD114345083055E8B738728 /* mysql_sp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_sp.h; path = OHMySQL/lib/include/mysql/psi/mysql_sp.h; sourceTree = "<group>"; };
+		24FD33D2172E60C65CC15C3D650D53D9 /* psi_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = psi_base.h; path = OHMySQL/lib/include/mysql/psi/psi_base.h; sourceTree = "<group>"; };
+		254762ECD914A3304D99A77FAF8D5386 /* OHMySQL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OHMySQL.modulemap; sourceTree = "<group>"; };
+		259D9B06B38D57E89C2EDB4C029C2B94 /* CenteredCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CenteredCollectionView.debug.xcconfig; sourceTree = "<group>"; };
+		2679D5D05517AC3E4916503A20A54EED /* binary_log_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = binary_log_types.h; path = OHMySQL/lib/include/binary_log_types.h; sourceTree = "<group>"; };
+		26985A92D778E0522BFB08FD3D03E61A /* DatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DatePicker.modulemap; sourceTree = "<group>"; };
+		28177505CFC85C035DECB707F21C40E5 /* sslopt-longopts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-longopts.h"; path = "OHMySQL/lib/include/sslopt-longopts.h"; sourceTree = "<group>"; };
+		2870F1D02183F82F3521CD39B1B7D62A /* GeminiAnimationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiAnimationModel.swift; path = Gemini/GeminiAnimationModel.swift; sourceTree = "<group>"; };
+		2E196C629670ED0C4B0FA61B2C3B9EA1 /* my_xml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_xml.h; path = OHMySQL/lib/include/my_xml.h; sourceTree = "<group>"; };
+		31337FE89A50748A1512DA882B25F4A5 /* mysql_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_table.h; path = OHMySQL/lib/include/mysql/psi/mysql_table.h; sourceTree = "<group>"; };
+		3139AADC914AE9812DC3F4E573932A29 /* NSData+OHSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+OHSerialization.h"; path = "OHMySQL/Categories/NSData+OHSerialization.h"; sourceTree = "<group>"; };
+		3448AC8A74DF3CD001EA025A85D88F38 /* OHJoinConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHJoinConstants.h; path = OHMySQL/Constants/OHJoinConstants.h; sourceTree = "<group>"; };
+		35353F190A4B0A599013CEE1BD69202E /* CenteredCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CenteredCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		38A20D336E1F2E47556E0344368BA52F /* my_global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_global.h; path = OHMySQL/lib/include/my_global.h; sourceTree = "<group>"; };
+		39F9E8E61C59773CEB3D538D0070BDF5 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DaysCollectionViewCell.swift; path = DatePicker/Classes/DaysCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E445C24C9B4F7E1401F7E24F01F539A /* DatePickerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerHelper.swift; path = DatePicker/Classes/DatePickerHelper.swift; sourceTree = "<group>"; };
+		3F20AB8CC54AC047FF48597B12F19F2C /* OHConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHConstants.h; path = OHMySQL/Constants/OHConstants.h; sourceTree = "<group>"; };
+		3FD73AF9DA4E0DE8363AE29486F54D9C /* Pods-Horo101-Horo101UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Horo101-Horo101UITests-umbrella.h"; sourceTree = "<group>"; };
+		4116E8924E75BC522D81D8B1F28C3117 /* Pods-Horo101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horo101.release.xcconfig"; sourceTree = "<group>"; };
+		428433C8E273AEE555B53814F6FF3706 /* Pods-Horo101-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Horo101-dummy.m"; sourceTree = "<group>"; };
+		4310404255FDBE440C5A361BD011128B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43E33C94366B659BB2492DFB0FCC0094 /* OHResultErrorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHResultErrorType.h; path = OHMySQL/Constants/OHResultErrorType.h; sourceTree = "<group>"; };
+		44506D47BF25607B40FFA549AB92BAE8 /* DatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458F9939C49AAEF4E5F5A24BA6D4B619 /* m_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_ctype.h; path = OHMySQL/lib/include/m_ctype.h; sourceTree = "<group>"; };
+		47E3A121DE0A11B73DE5F5776528D6B8 /* OHLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHLogging.h; path = OHMySQL/Constants/OHLogging.h; sourceTree = "<group>"; };
+		48BE2D3B5935C8EBE9A58497DFC18FB2 /* keycache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keycache.h; path = OHMySQL/lib/include/keycache.h; sourceTree = "<group>"; };
+		4961FC8B712811D664B7F4F8537F7119 /* YearCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearCollectionViewCell.swift; path = DatePicker/Classes/YearCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F363C36DC685BDD3A10A6DA0C890047 /* Extended.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extended.debug.xcconfig; sourceTree = "<group>"; };
+		4F8E255A1E6EBA1E21456FF67FABE57E /* DayHeaderCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayHeaderCollectionViewCell.swift; path = DatePicker/Classes/DayHeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		518EE561D97E9A4B7EED3FBA94118782 /* Pods-Horo101-Horo101UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Horo101-Horo101UITests-Info.plist"; sourceTree = "<group>"; };
+		54CCAA2C03F5BD10935A19287CCC790C /* NSString+Escaping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Escaping.h"; path = "OHMySQL/Categories/NSString+Escaping.h"; sourceTree = "<group>"; };
+		558A9E78AE376B819CAF9368E846BBCC /* get_password.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = get_password.h; path = OHMySQL/lib/include/mysql/get_password.h; sourceTree = "<group>"; };
+		56461F8214F1FCD7DE04CDC3F27E95F1 /* psi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = psi.h; path = OHMySQL/lib/include/mysql/psi/psi.h; sourceTree = "<group>"; };
+		56E1B38777CD94AE4681A88674589D7A /* byte_order_generic_x86.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = byte_order_generic_x86.h; path = OHMySQL/lib/include/byte_order_generic_x86.h; sourceTree = "<group>"; };
+		582A794E5732E554A70FE65B509CD8E4 /* DatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePicker.debug.xcconfig; sourceTree = "<group>"; };
+		5AECA71034C7AC142E70863A6EA7DB1F /* OHJoinConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHJoinConstants.m; path = OHMySQL/Constants/OHJoinConstants.m; sourceTree = "<group>"; };
+		5CDEDCA679EB35B676B63256FC04B6CC /* DayCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DayCollectionViewCell.xib; path = en.lproj/DayCollectionViewCell.xib; sourceTree = "<group>"; };
+		5DB48E70C498CB3ABB0422E07CA28D29 /* thr_cond.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thr_cond.h; path = OHMySQL/lib/include/thr_cond.h; sourceTree = "<group>"; };
+		60863BA5D4BD274BAC1DF6B5B944A5DC /* little_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = little_endian.h; path = OHMySQL/lib/include/little_endian.h; sourceTree = "<group>"; };
+		61045FE8EFB5241A58411694F179F312 /* NSString+Utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Utility.h"; path = "OHMySQL/Categories/NSString+Utility.h"; sourceTree = "<group>"; };
+		61306170A8171EC7871B7423E3D3BE04 /* OHMySQLTimeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLTimeline.h; path = OHMySQL/Models/OHMySQLTimeline.h; sourceTree = "<group>"; };
+		62C6DB9EA720F55C7F699E530648AAC0 /* mysql_memory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_memory.h; path = OHMySQL/lib/include/mysql/psi/mysql_memory.h; sourceTree = "<group>"; };
+		65445E7836DB06B547511BF89A70C991 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Extended/Classes/UIViewController.swift; sourceTree = "<group>"; };
+		662218F8162694627919AD55FD7A4089 /* mysql_ps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_ps.h; path = OHMySQL/lib/include/mysql/psi/mysql_ps.h; sourceTree = "<group>"; };
+		666DDC96DA732100CD85BFD460592FEA /* CenteredCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CenteredCollectionView.modulemap; sourceTree = "<group>"; };
+		69AAF578C3420FD0A134EC4158E63754 /* MonthCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MonthCollectionViewCell.xib; path = DatePicker/Classes/MonthCollectionViewCell.xib; sourceTree = "<group>"; };
+		6BC130E4E8B3ACCDD3C3F5B41575DF83 /* m_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_string.h; path = OHMySQL/lib/include/m_string.h; sourceTree = "<group>"; };
+		6C3CD707CF61F4EF8687856FF69C05BE /* Pods-Horo101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horo101.debug.xcconfig"; sourceTree = "<group>"; };
+		6DFAC0AC09F4F682430C400379B7E587 /* OHMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F42F1CEC764B10C5CB871CB377A9C35 /* psi_memory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = psi_memory.h; path = OHMySQL/lib/include/mysql/psi/psi_memory.h; sourceTree = "<group>"; };
+		71F7FE57D703C4306AE4F809392BB07A /* NSObject+Mapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Mapping.m"; path = "OHMySQL/Categories/NSObject+Mapping.m"; sourceTree = "<group>"; };
+		7581EE0437D6738D583A8C6FB0F8196D /* byte_order_generic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = byte_order_generic.h; path = OHMySQL/lib/include/byte_order_generic.h; sourceTree = "<group>"; };
+		771D76BD6555AD98F7C73583302CC03D /* Gemini-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-prefix.pch"; sourceTree = "<group>"; };
+		78F9D3D1779475930C358DD4AED2B91A /* Pods_Horo101_Horo101UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horo101_Horo101UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9AF39CE440623B7CD5823310EBA22A /* mysql_lex_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_lex_string.h; path = OHMySQL/lib/include/mysql/mysql_lex_string.h; sourceTree = "<group>"; };
+		7BDE520C1B7CC86B3EF9CAFF7299F901 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = Extended/Classes/Int.swift; sourceTree = "<group>"; };
+		7CA5F37A8C780D97B4CEC9CAC3FFB812 /* Extended.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Extended.modulemap; sourceTree = "<group>"; };
+		7D6FFB4C8B26ABDF6497F226886ADA0C /* Pods-Horo101Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horo101Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC968FDDE847B7BE39DA4733E51E6FA /* my_thread_local.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_thread_local.h; path = OHMySQL/lib/include/my_thread_local.h; sourceTree = "<group>"; };
+		7DFBBF1552F418CEFFE6C48539E0A923 /* my_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_alloc.h; path = OHMySQL/lib/include/my_alloc.h; sourceTree = "<group>"; };
+		7E801CD06D79B5B92E1A6DC1E001EFFE /* MonthsCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthsCollectionViewCell.swift; path = DatePicker/Classes/MonthsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7F376E0F835114F9BE06063D8A80BF31 /* ScaleAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleAnimatable.swift; path = Gemini/ScaleAnimatable.swift; sourceTree = "<group>"; };
+		802EAFE0E04998A634A7060C95FBE165 /* OHMySQL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQL.h; path = OHMySQL/OHMySQL.h; sourceTree = "<group>"; };
+		8089F20F5254C74D5FCB7B45AF794951 /* PitchRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchRotationAnimatable.swift; path = Gemini/PitchRotationAnimatable.swift; sourceTree = "<group>"; };
+		80CDE9E0939E0B2D8E0D887F04FE83DD /* GeminiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCell.swift; path = Gemini/GeminiCell.swift; sourceTree = "<group>"; };
+		80F280ABE8D2CEF2CB23C488013B4CA2 /* Gemini.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gemini.modulemap; sourceTree = "<group>"; };
+		8240F968124C377728E2F2E2770CCC22 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Extended/Classes/Date.swift; sourceTree = "<group>"; };
+		857852957E2928D32D06EDDAFE292DFE /* OHMySQLQueryContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLQueryContext.m; path = OHMySQL/OHMySQLQueryContext.m; sourceTree = "<group>"; };
+		85D48F86C3B86AD1F2DEADF8BDDF935F /* RollRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollRotationAnimatable.swift; path = Gemini/RollRotationAnimatable.swift; sourceTree = "<group>"; };
+		85F052A6051FA230CEC37435CA4E4D49 /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Extended/Classes/UILabel.swift; sourceTree = "<group>"; };
+		863872413F5E447D5E2AC2C7C24CF306 /* OHMySQLStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLStore.m; path = OHMySQL/Models/OHMySQLStore.m; sourceTree = "<group>"; };
+		86D038F5765CB83ACFEB8A0387153988 /* errmsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errmsg.h; path = OHMySQL/lib/include/errmsg.h; sourceTree = "<group>"; };
+		8A63528C2419BA10859EA7AF9FE04641 /* FrameHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameHelper.swift; path = DatePicker/Classes/FrameHelper.swift; sourceTree = "<group>"; };
+		8CD44E87D4626E10EC1296D0B3ADE158 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Extended/Classes/UIImage.swift; sourceTree = "<group>"; };
+		8CEA8C659F45CF96B7F63B38F5EDAE6F /* MonthCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthCollectionViewCell.swift; path = DatePicker/Classes/MonthCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F5AB7D46C66F73C55E29AA13CB675D7 /* DatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePicker-prefix.pch"; sourceTree = "<group>"; };
+		905AFE6A2A2F39FA12E939C74FE5648C /* Pods-Horo101-Horo101UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Horo101-Horo101UITests-dummy.m"; sourceTree = "<group>"; };
+		9112B49692483BECFB95227E10AA6AFE /* DaysCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DaysCollectionViewCell.xib; path = DatePicker/Classes/DaysCollectionViewCell.xib; sourceTree = "<group>"; };
+		912EA6D8BA8498F892BA520398662BA1 /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonCollectionViewCell.swift; path = DatePicker/Classes/ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		919CD30551E214EAE3FFB48122D62D45 /* Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Double.swift; path = Extended/Classes/Double.swift; sourceTree = "<group>"; };
+		922CA96CD803CDDA6D3F4F1520078368 /* UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = Extended/Classes/UICollectionView.swift; sourceTree = "<group>"; };
+		94ACCE63A8BA2359BEA867325B6E94AA /* typelib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = typelib.h; path = OHMySQL/lib/include/typelib.h; sourceTree = "<group>"; };
+		955C3F69876DFED0B99228612B434982 /* ButtonCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCollectionViewCell.xib; path = DatePicker/Classes/ButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		9572B52DD8508AABDEC285E40D2F4D8F /* big_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = big_endian.h; path = OHMySQL/lib/include/big_endian.h; sourceTree = "<group>"; };
+		967F90FF71A44E3D2A2D61E0446F66ED /* mysql_stage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_stage.h; path = OHMySQL/lib/include/mysql/psi/mysql_stage.h; sourceTree = "<group>"; };
+		96B26FF050E8B65A8826DBFC9BB3C336 /* DeviceOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceOrientation.swift; path = Extended/Classes/DeviceOrientation.swift; sourceTree = "<group>"; };
+		96D8B052356705AF617D87E3F850C555 /* NSString+OHSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+OHSerialization.h"; path = "OHMySQL/Categories/NSString+OHSerialization.h"; sourceTree = "<group>"; };
+		977F4B67D22B37319DD837B2BE86EFFC /* DatePickerColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerColors.swift; path = DatePicker/Classes/DatePickerColors.swift; sourceTree = "<group>"; };
+		986BE7F68C7E5017D86E362619D2F182 /* OHMySQLQueryRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLQueryRequest.h; path = OHMySQL/Models/OHMySQLQueryRequest.h; sourceTree = "<group>"; };
+		99CFD9B7A1FFA77C870DBD6B350B3CAB /* OHMySQLUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLUser.m; path = OHMySQL/Models/OHMySQLUser.m; sourceTree = "<group>"; };
+		9B3DE4E649748507C58FC6C1DD134363 /* OHCharsetEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHCharsetEncoding.m; path = OHMySQL/Constants/OHCharsetEncoding.m; sourceTree = "<group>"; };
+		9C3FC7850248AB96E7F70CAABB1894FF /* Extended-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extended-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF3D0551BE2034CD8BD9A1645DCF4C2 /* sslopt-case.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-case.h"; path = "OHMySQL/lib/include/sslopt-case.h"; sourceTree = "<group>"; };
+		9E14B9DAE89EE8A36D6DC5B389AFD230 /* OHMySQLTimeline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLTimeline.m; path = OHMySQL/Models/OHMySQLTimeline.m; sourceTree = "<group>"; };
+		9ED94F9587F516840ED5615F4AF52D93 /* Picker.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Picker.storyboard; path = DatePicker/Classes/Picker.storyboard; sourceTree = "<group>"; };
+		9EE0D6A71900C9B02AEEBF567406DF8E /* CustomAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimatable.swift; path = Gemini/CustomAnimatable.swift; sourceTree = "<group>"; };
+		9F8B6F476DAC7762D970311156C0CC2C /* Pods_Horo101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horo101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCA51248800076A39676FA98F85F1FA /* plugin_auth_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plugin_auth_common.h; path = OHMySQL/lib/include/mysql/plugin_auth_common.h; sourceTree = "<group>"; };
+		9FE5D72496F9F21FC1440A2F82EC4EDA /* Gemini-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gemini-dummy.m"; sourceTree = "<group>"; };
+		A028D0B756EE19976DFD6311BB999BFF /* my_command.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_command.h; path = OHMySQL/lib/include/my_command.h; sourceTree = "<group>"; };
+		A049FD1B376A26006BAC3301506C45BA /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Extended/Classes/Color.swift; sourceTree = "<group>"; };
+		A0558AB63D66D14B6F3E8BA198F0E686 /* decimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decimal.h; path = OHMySQL/lib/include/decimal.h; sourceTree = "<group>"; };
+		A2D50182D20CCD317DC459A818D8783A /* UIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplication.swift; path = Extended/Classes/UIApplication.swift; sourceTree = "<group>"; };
+		A3232324AC7116EBD0D8105586BE9338 /* Pods-Horo101Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Horo101Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3E50212E26B9CEB4382D013471646EC /* DatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePicker-umbrella.h"; sourceTree = "<group>"; };
+		A51AD9EBBC5458CA01210BAAF544D021 /* OHMySQLStoreCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLStoreCoordinator.h; path = OHMySQL/OHMySQLStoreCoordinator.h; sourceTree = "<group>"; };
+		A5CEF01D60DEE6E6EB09A0F1BE447011 /* Pods-Horo101-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Horo101-umbrella.h"; sourceTree = "<group>"; };
+		A5F69C5F66CAA64A5120174CA382C34D /* OHCharsetEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHCharsetEncoding.h; path = OHMySQL/Constants/OHCharsetEncoding.h; sourceTree = "<group>"; };
+		A6E631052F3BCA1CEAC8A50756FE18DA /* MonthsCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MonthsCollectionViewCell.xib; path = DatePicker/Classes/MonthsCollectionViewCell.xib; sourceTree = "<group>"; };
+		A7C18DB58A946B0660F785E06652C4E2 /* Extended.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extended.release.xcconfig; sourceTree = "<group>"; };
+		A7C9EA1A53C2140E980955301E63FBB5 /* Gemini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.debug.xcconfig; sourceTree = "<group>"; };
+		A89FEEEEB9E78C52E281DEEA79B7ADDD /* YawRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YawRotationAnimatable.swift; path = Gemini/YawRotationAnimatable.swift; sourceTree = "<group>"; };
+		A9079F0423F0B3F12CA05A1BD5749C59 /* CenteredCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CenteredCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		AC519BA259E7C7990D07B71C4BCD75AD /* Fonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = DatePicker/Classes/Fonts.swift; sourceTree = "<group>"; };
+		AD54B0A0CC4179D558D5E6B3491B8F98 /* Extended.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extended.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF928BCA85FB9B7759355D9C78F4B6F /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Extended/Classes/Map.swift; sourceTree = "<group>"; };
+		B0720DE20FB12FF33F5CFE67683E4E07 /* PickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerViewController.swift; path = DatePicker/Classes/PickerViewController.swift; sourceTree = "<group>"; };
+		B0A22DD0D8DA6DCB7DD65BDE913835CB /* EasingAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingAnimatable.swift; path = Gemini/EasingAnimatable.swift; sourceTree = "<group>"; };
+		B11450CAE29F7B52EB0E77CEFFDD43B2 /* CenteredCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CenteredCollectionView.release.xcconfig; sourceTree = "<group>"; };
+		B19831AA3FD2A7A30F4E80EEB05490FC /* Pods_Horo101Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Horo101Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37290EB19F54BBC1982595B0D236315 /* CircleRotateAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleRotateAnimatable.swift; path = Gemini/CircleRotateAnimatable.swift; sourceTree = "<group>"; };
+		B471358FC838787CD9E48CDF43AEBED3 /* NSAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedString.swift; path = Extended/Classes/NSAttributedString.swift; sourceTree = "<group>"; };
+		B5D6B83527194F0273CFF99A19E270A0 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Extended/Classes/String.swift; sourceTree = "<group>"; };
+		B82DF42C13809189ADB4973C6ADA44DA /* NSNumber+OHSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+OHSerialization.h"; path = "OHMySQL/Categories/NSNumber+OHSerialization.h"; sourceTree = "<group>"; };
+		B872605858CB172FA5611A2BA29024FA /* Pods-Horo101-Horo101UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Horo101-Horo101UITests-frameworks.sh"; sourceTree = "<group>"; };
+		B947F73E18B4CEE07EC3426213EDFD7C /* libmysqlclient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmysqlclient.a; path = OHMySQL/lib/ios/libmysqlclient.a; sourceTree = "<group>"; };
+		B971C728CCACCC8A4C00740EDDD11522 /* ResourceBundle-DatePicker-DatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DatePicker-DatePicker-Info.plist"; sourceTree = "<group>"; };
+		BA80D536FE39D6848C936F69BFF4D373 /* OHMySQLSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLSerialization.h; path = OHMySQL/OHMySQLSerialization.h; sourceTree = "<group>"; };
+		BAC0ED857E5F512891E8D8908092D483 /* DatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePicker-dummy.m"; sourceTree = "<group>"; };
+		BCD31BE0D407C8ADB608C6F406BEE4D6 /* Pods-Horo101-Horo101UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horo101-Horo101UITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCDDF2EDED6D786697B10785D9AD38C2 /* Pods-Horo101-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Horo101-Info.plist"; sourceTree = "<group>"; };
+		BCE621E17C5B360A26DC57D6D65758EC /* Pods-Horo101-Horo101UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Horo101-Horo101UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3025C888869F9DE85C3095098E384F1 /* Pods-Horo101-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Horo101-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C776B4C0406564F40A62D85ECD28ED75 /* mysql_mdl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_mdl.h; path = OHMySQL/lib/include/mysql/psi/mysql_mdl.h; sourceTree = "<group>"; };
+		C7D22406D98EB60A6653C196D990220E /* EasingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingFunction.swift; path = Gemini/EasingFunction.swift; sourceTree = "<group>"; };
+		C8604D5A1176A51452F18F51202E4A96 /* OHSSLConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHSSLConfig.h; path = OHMySQL/Models/OHSSLConfig.h; sourceTree = "<group>"; };
+		C8B070271CE5A91F227BA8DF49A2DFFF /* Extended-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Extended-dummy.m"; sourceTree = "<group>"; };
+		C96D92272B6B632DF2E5C242E3245EC4 /* YearsCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YearsCollectionViewCell.swift; path = DatePicker/Classes/YearsCollectionViewCell.swift; sourceTree = "<group>"; };
+		C987BAE079B098C24DDC7DB43E25338B /* Extended-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Extended-Info.plist"; sourceTree = "<group>"; };
+		C9B599514DD29E7A23B8C41CD081205C /* Pods-Horo101Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Horo101Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA0A74068D1E667E88296459FC90A891 /* CenteredCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenteredCollectionViewFlowLayout.swift; path = CenteredCollectionView/Classes/CenteredCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		CA5A5291CADB89DD282C4BD7CE96B00A /* OHMySQL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHMySQL-prefix.pch"; sourceTree = "<group>"; };
+		CA68A286052CDD91865B306CB8FEBC0E /* NSObject+Mapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Mapping.h"; path = "OHMySQL/Categories/NSObject+Mapping.h"; sourceTree = "<group>"; };
+		CA997216C79E94D0F521BFA46ED390B2 /* CenteredCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CenteredCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6738FE3BFAE35ABD50889969DA65CC /* mysql.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql.h; path = OHMySQL/lib/include/mysql.h; sourceTree = "<group>"; };
+		CD1818805456ED6284F63E67A154557E /* mysql_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_version.h; path = OHMySQL/lib/include/mysql_version.h; sourceTree = "<group>"; };
+		CDB381A023A3D9208EFFF809C6ABA069 /* my_byteorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_byteorder.h; path = OHMySQL/lib/include/my_byteorder.h; sourceTree = "<group>"; };
+		CE6CC63729635FE1BC9E795DDACDD6DA /* plugin_trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plugin_trace.h; path = OHMySQL/lib/include/mysql/plugin_trace.h; sourceTree = "<group>"; };
+		CF982058E4A790DDD3ABB77ED1FDD1D2 /* mysql_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_time.h; path = OHMySQL/lib/include/mysql_time.h; sourceTree = "<group>"; };
+		CFD85B5FB26B5C71F310989557CAD46B /* OHMappingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMappingProtocol.h; path = OHMySQL/OHMappingProtocol.h; sourceTree = "<group>"; };
+		D05BA8B86E58D4AEED47DBA935878CB6 /* Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = Extended/Classes/Collection.swift; sourceTree = "<group>"; };
+		D095EE433D15E3D2EF0C67D5520B844D /* OHMySQL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OHMySQL-dummy.m"; sourceTree = "<group>"; };
+		D1144BF4D9E93F2986845AA6A59AE8CE /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Gemini/UIViewExtension.swift; sourceTree = "<group>"; };
+		D16BE11AC103AA782D19377A6B79FE22 /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Extended/Classes/UIView.swift; sourceTree = "<group>"; };
+		D4180D240239F5D999405307161212D5 /* CubeAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAnimatable.swift; path = Gemini/CubeAnimatable.swift; sourceTree = "<group>"; };
+		D470D46592E06EE6E98197CD396A947E /* OHMySQL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHMySQL-umbrella.h"; sourceTree = "<group>"; };
+		D5E8C36F84CAA7F9DF2CF91F718981DD /* Pods-Horo101Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Horo101Tests-umbrella.h"; sourceTree = "<group>"; };
+		D5F8F6BEDCEAE8297260D0D12C93FA09 /* client_plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client_plugin.h; path = OHMySQL/lib/include/mysql/client_plugin.h; sourceTree = "<group>"; };
+		D66BF205103F280561608818B5BCB79D /* Gemini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.release.xcconfig; sourceTree = "<group>"; };
+		D67D63AD24FF1E05DDC40A573303930F /* OHRefreshOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHRefreshOptions.h; path = OHMySQL/Constants/OHRefreshOptions.h; sourceTree = "<group>"; };
+		D6E1022C9E2B05268A6B01525B1C95FD /* my_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_list.h; path = OHMySQL/lib/include/my_list.h; sourceTree = "<group>"; };
+		D794CDF930AA45E0A1E992DA94A77DBF /* OHMySQLQueryContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLQueryContext.h; path = OHMySQL/OHMySQLQueryContext.h; sourceTree = "<group>"; };
+		D7C7D2392516AB3AB36EE66B153B1DFF /* my_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_config.h; path = OHMySQL/lib/include/my_config.h; sourceTree = "<group>"; };
+		D87A6B2D0360FF31AD6CF938F8AC45D8 /* thr_mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thr_mutex.h; path = OHMySQL/lib/include/thr_mutex.h; sourceTree = "<group>"; };
+		DA1E0F8BBA02DFCDAA59B5D680463291 /* sslopt-vars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sslopt-vars.h"; path = "OHMySQL/lib/include/sslopt-vars.h"; sourceTree = "<group>"; };
+		DB02C8A8F5ADBB321E3FBDB4643066EA /* mysql_statement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_statement.h; path = OHMySQL/lib/include/mysql/psi/mysql_statement.h; sourceTree = "<group>"; };
+		DB4167C4F67D492F3DC109AD875CE0D5 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayCollectionViewCell.swift; path = DatePicker/Classes/DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB5D9B452F6223BAA18494B38BEB788D /* mysql_com_server.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_com_server.h; path = OHMySQL/lib/include/mysql_com_server.h; sourceTree = "<group>"; };
+		DBE7F30ED2346AB47B978D8B170F1B81 /* DatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePicker.release.xcconfig; sourceTree = "<group>"; };
+		DD12DAD4698AA0B572B611BE490AFA35 /* YearCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YearCollectionViewCell.xib; path = DatePicker/Classes/YearCollectionViewCell.xib; sourceTree = "<group>"; };
+		DD3C6F9A676EB70695D77BBCDA3FCC1F /* my_sys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_sys.h; path = OHMySQL/lib/include/my_sys.h; sourceTree = "<group>"; };
+		DD4B1E8C4162B0263BFC71E04616E450 /* service_mysql_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = service_mysql_alloc.h; path = OHMySQL/lib/include/mysql/service_mysql_alloc.h; sourceTree = "<group>"; };
+		DF1864950A88B9047AF3B97C46197773 /* TimeInterval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeInterval.swift; path = Extended/Classes/TimeInterval.swift; sourceTree = "<group>"; };
+		E0C32BDD24DFA4E4AEC5C0206096D3DB /* OHMySQLQueryRequestFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHMySQLQueryRequestFactory.m; path = OHMySQL/OHMySQLQueryRequestFactory.m; sourceTree = "<group>"; };
+		E172271791454DEF3A67CAB86F46AA47 /* Pods-Horo101Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Horo101Tests.modulemap"; sourceTree = "<group>"; };
+		E341C6BBED69EAAE4BFB781F4E804F56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E4190987903F092E650C4F1D7F83AF53 /* DatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePicker.swift; path = DatePicker/Classes/DatePicker.swift; sourceTree = "<group>"; };
+		E44D023B45F60916F0DCB6B276266141 /* mysql_com.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_com.h; path = OHMySQL/lib/include/mysql_com.h; sourceTree = "<group>"; };
+		E578B7601791B476B8FC8738C6556BF1 /* mysql_file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_file.h; path = OHMySQL/lib/include/mysql/psi/mysql_file.h; sourceTree = "<group>"; };
+		E6D6C073B6F7A9BD7F6A59D5025022BE /* Pods-Horo101Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Horo101Tests-Info.plist"; sourceTree = "<group>"; };
+		E796BFBA8F74B2F512427288A7FC9537 /* mysql_transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_transaction.h; path = OHMySQL/lib/include/mysql/psi/mysql_transaction.h; sourceTree = "<group>"; };
+		E86AD3A492A1C72ED69247880D69A7F6 /* Extended-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extended-umbrella.h"; sourceTree = "<group>"; };
+		E9346B1BBD6139B26880CC27CB307E50 /* OHSerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHSerializationProtocol.h; path = OHMySQL/OHSerializationProtocol.h; sourceTree = "<group>"; };
+		EA4E89229FC150B50AF9AC80DE7CBB64 /* Pods-Horo101-Horo101UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Horo101-Horo101UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED180B0BB40D53A95C1F18995E1D4843 /* OHMySQLStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLStore.h; path = OHMySQL/Models/OHMySQLStore.h; sourceTree = "<group>"; };
+		ED1E07CDEC5D18C3A7367D1556EB4A07 /* sql_state.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sql_state.h; path = OHMySQL/lib/include/sql_state.h; sourceTree = "<group>"; };
+		EEF611FBA8542E178E3FC765516B93D5 /* OHMySQL-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OHMySQL-Info.plist"; sourceTree = "<group>"; };
+		F0AC82D1DDB9DDC1BD05E9E90D596256 /* my_thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_thread.h; path = OHMySQL/lib/include/my_thread.h; sourceTree = "<group>"; };
+		F3D7F16F4F842B659367F7C7EB337479 /* NSString+Escaping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Escaping.m"; path = "OHMySQL/Categories/NSString+Escaping.m"; sourceTree = "<group>"; };
+		F3DAD167D664CDE1528EF670713D0B7A /* client_authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client_authentication.h; path = OHMySQL/lib/include/mysql/client_authentication.h; sourceTree = "<group>"; };
+		F3F28CD448E58E41A48A8FE05F5B77D6 /* service_my_snprintf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = service_my_snprintf.h; path = OHMySQL/lib/include/mysql/service_my_snprintf.h; sourceTree = "<group>"; };
+		F42A2D6848AF9BAB69C344838055B555 /* Pods-Horo101-Horo101UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Horo101-Horo101UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A11435CE30250820B2B0EAC97E7C7E /* OHMySQLContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHMySQLContainer.h; path = OHMySQL/OHMySQLContainer.h; sourceTree = "<group>"; };
+		F77562131DE1FEEF218A2703AD74FF1E /* my_dbug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = my_dbug.h; path = OHMySQL/lib/include/my_dbug.h; sourceTree = "<group>"; };
+		F9515AFD0C9F603B89DB1A7D825B29C8 /* mysql_socket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysql_socket.h; path = OHMySQL/lib/include/mysql/psi/mysql_socket.h; sourceTree = "<group>"; };
+		F9BA54136BBF8887E305B23C8E0900CA /* Pods-Horo101.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Horo101.modulemap"; sourceTree = "<group>"; };
+		FAA37242CBC317D096F7EA84EB486BC2 /* mysqld_ername.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mysqld_ername.h; path = OHMySQL/lib/include/mysqld_ername.h; sourceTree = "<group>"; };
+		FB1C5BB5310885E8AAC4B9352A5286BC /* DatePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA878B12021BE4A3085F1DDD6D5561F /* DatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DatePicker-Info.plist"; sourceTree = "<group>"; };
+		FF1E1FBF4FA40E64450EC22A4C550AB5 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Extended/Classes/Array.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0666A2B94C479F72B285A48708476A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA23D066322BCFB7E6EC658E1ADBE62F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1395826B4DC3777C5F906D872766DC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5175A088A1068CE18BD249D2F8E34A24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EFBA3AF7DC9770A2A422FE90531357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D293B7E3A354B0F51124A148C30C824F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1965E4BE945D4651D141E114F3B2480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93BC3423FAABD2D72F4F6BABD0F4189 /* Extended.framework in Frameworks */,
+				E7EFBF9FA2960130C266A0CDB0E7DCE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EC9EB8AAD2C9CD9D89890B1F53AB386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7DD2D0182403FC5432793DCD30A6CC /* Foundation.framework in Frameworks */,
+				4BC9D0E157E5EFE3EB9B63957B55AF4A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD78E8DB856054ED31E9EF1EC882892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1269397F24A8192F0C5D45D2D55B41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82784444F6A21E1847A3B4C386931EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E46079B7A70C2DD2F8F76385CCFCD97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83784B53B6A333FE0880FDEDB4BE6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC6D46B69A2D4F2A81E143814AF68F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1D2C96308C3E6A4363572D891CE040 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C6E5D3FD38997AE2B763E531063FB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				254762ECD914A3304D99A77FAF8D5386 /* OHMySQL.modulemap */,
+				D095EE433D15E3D2EF0C67D5520B844D /* OHMySQL-dummy.m */,
+				EEF611FBA8542E178E3FC765516B93D5 /* OHMySQL-Info.plist */,
+				CA5A5291CADB89DD282C4BD7CE96B00A /* OHMySQL-prefix.pch */,
+				D470D46592E06EE6E98197CD396A947E /* OHMySQL-umbrella.h */,
+				1CFD5CCACFF7D3D88ED314C87D83B956 /* OHMySQL.debug.xcconfig */,
+				2026D3273D8B65DDAC25247E99185E27 /* OHMySQL.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OHMySQL";
+			sourceTree = "<group>";
+		};
+		1119E8006221905DCDC977C75CA2BF14 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				912EA6D8BA8498F892BA520398662BA1 /* ButtonCollectionViewCell.swift */,
+				E4190987903F092E650C4F1D7F83AF53 /* DatePicker.swift */,
+				977F4B67D22B37319DD837B2BE86EFFC /* DatePickerColors.swift */,
+				3E445C24C9B4F7E1401F7E24F01F539A /* DatePickerHelper.swift */,
+				DB4167C4F67D492F3DC109AD875CE0D5 /* DayCollectionViewCell.swift */,
+				4F8E255A1E6EBA1E21456FF67FABE57E /* DayHeaderCollectionViewCell.swift */,
+				39F9E8E61C59773CEB3D538D0070BDF5 /* DaysCollectionViewCell.swift */,
+				AC519BA259E7C7990D07B71C4BCD75AD /* Fonts.swift */,
+				8A63528C2419BA10859EA7AF9FE04641 /* FrameHelper.swift */,
+				8CEA8C659F45CF96B7F63B38F5EDAE6F /* MonthCollectionViewCell.swift */,
+				7E801CD06D79B5B92E1A6DC1E001EFFE /* MonthsCollectionViewCell.swift */,
+				B0720DE20FB12FF33F5CFE67683E4E07 /* PickerViewController.swift */,
+				4961FC8B712811D664B7F4F8537F7119 /* YearCollectionViewCell.swift */,
+				C96D92272B6B632DF2E5C242E3245EC4 /* YearsCollectionViewCell.swift */,
+				4232F8E9E82E18DFD9AF07FD5EF78E52 /* Resources */,
+				B0725CA12D08BEEC684F670EB8164078 /* Support Files */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		1B763F25383D0DEDE45AF8E7B96046DD /* Extended */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E1FBF4FA40E64450EC22A4C550AB5 /* Array.swift */,
+				D05BA8B86E58D4AEED47DBA935878CB6 /* Collection.swift */,
+				A049FD1B376A26006BAC3301506C45BA /* Color.swift */,
+				8240F968124C377728E2F2E2770CCC22 /* Date.swift */,
+				96B26FF050E8B65A8826DBFC9BB3C336 /* DeviceOrientation.swift */,
+				919CD30551E214EAE3FFB48122D62D45 /* Double.swift */,
+				7BDE520C1B7CC86B3EF9CAFF7299F901 /* Int.swift */,
+				AFF928BCA85FB9B7759355D9C78F4B6F /* Map.swift */,
+				B471358FC838787CD9E48CDF43AEBED3 /* NSAttributedString.swift */,
+				B5D6B83527194F0273CFF99A19E270A0 /* String.swift */,
+				DF1864950A88B9047AF3B97C46197773 /* TimeInterval.swift */,
+				A2D50182D20CCD317DC459A818D8783A /* UIApplication.swift */,
+				922CA96CD803CDDA6D3F4F1520078368 /* UICollectionView.swift */,
+				8CD44E87D4626E10EC1296D0B3ADE158 /* UIImage.swift */,
+				85F052A6051FA230CEC37435CA4E4D49 /* UILabel.swift */,
+				1E580ED8F66E8D370A36CD4D651DA524 /* UIScrollView.swift */,
+				D16BE11AC103AA782D19377A6B79FE22 /* UIView.swift */,
+				65445E7836DB06B547511BF89A70C991 /* UIViewController.swift */,
+				9C20560C1EFEE0645EE37B87CDF6F38A /* Support Files */,
+			);
+			path = Extended;
+			sourceTree = "<group>";
+		};
+		22A77607D0CFE472C4F5F7EABD8E910E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B947F73E18B4CEE07EC3426213EDFD7C /* libmysqlclient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4232F8E9E82E18DFD9AF07FD5EF78E52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				955C3F69876DFED0B99228612B434982 /* ButtonCollectionViewCell.xib */,
+				59EA1D099081930EC9E3ABDD54DA4AF0 /* DayCollectionViewCell.xib */,
+				05959939EDF89249DA8BDBE2AC3FF1C0 /* DayHeaderCollectionViewCell.xib */,
+				9112B49692483BECFB95227E10AA6AFE /* DaysCollectionViewCell.xib */,
+				69AAF578C3420FD0A134EC4158E63754 /* MonthCollectionViewCell.xib */,
+				A6E631052F3BCA1CEAC8A50756FE18DA /* MonthsCollectionViewCell.xib */,
+				9ED94F9587F516840ED5615F4AF52D93 /* Picker.storyboard */,
+				DD12DAD4698AA0B572B611BE490AFA35 /* YearCollectionViewCell.xib */,
+				1BB9EA5AE2EA2FC8AD35206D5DC3B5B8 /* YearsCollectionViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		45719708BF18ABA202D20FE62312E4A1 /* Pods-Horo101-Horo101UITests */ = {
+			isa = PBXGroup;
+			children = (
+				172EE39C297F82E850BD91E0CA6CE31F /* Pods-Horo101-Horo101UITests.modulemap */,
+				BCE621E17C5B360A26DC57D6D65758EC /* Pods-Horo101-Horo101UITests-acknowledgements.markdown */,
+				EA4E89229FC150B50AF9AC80DE7CBB64 /* Pods-Horo101-Horo101UITests-acknowledgements.plist */,
+				905AFE6A2A2F39FA12E939C74FE5648C /* Pods-Horo101-Horo101UITests-dummy.m */,
+				B872605858CB172FA5611A2BA29024FA /* Pods-Horo101-Horo101UITests-frameworks.sh */,
+				518EE561D97E9A4B7EED3FBA94118782 /* Pods-Horo101-Horo101UITests-Info.plist */,
+				3FD73AF9DA4E0DE8363AE29486F54D9C /* Pods-Horo101-Horo101UITests-umbrella.h */,
+				F42A2D6848AF9BAB69C344838055B555 /* Pods-Horo101-Horo101UITests.debug.xcconfig */,
+				BCD31BE0D407C8ADB608C6F406BEE4D6 /* Pods-Horo101-Horo101UITests.release.xcconfig */,
+			);
+			name = "Pods-Horo101-Horo101UITests";
+			path = "Target Support Files/Pods-Horo101-Horo101UITests";
+			sourceTree = "<group>";
+		};
+		4FE5620CDE112DDA0AEFE7F85CF9CF61 /* Pods-Horo101Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E172271791454DEF3A67CAB86F46AA47 /* Pods-Horo101Tests.modulemap */,
+				C9B599514DD29E7A23B8C41CD081205C /* Pods-Horo101Tests-acknowledgements.markdown */,
+				A3232324AC7116EBD0D8105586BE9338 /* Pods-Horo101Tests-acknowledgements.plist */,
+				02D0039B5E6A4B10C2E1900743F7FB5A /* Pods-Horo101Tests-dummy.m */,
+				E6D6C073B6F7A9BD7F6A59D5025022BE /* Pods-Horo101Tests-Info.plist */,
+				D5E8C36F84CAA7F9DF2CF91F718981DD /* Pods-Horo101Tests-umbrella.h */,
+				7D6FFB4C8B26ABDF6497F226886ADA0C /* Pods-Horo101Tests.debug.xcconfig */,
+				05335B394DA3DBD66FE98688414EBCDF /* Pods-Horo101Tests.release.xcconfig */,
+			);
+			name = "Pods-Horo101Tests";
+			path = "Target Support Files/Pods-Horo101Tests";
+			sourceTree = "<group>";
+		};
+		5F9E425411A155D634EA996651AE6A7E /* CenteredCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CA0A74068D1E667E88296459FC90A891 /* CenteredCollectionViewFlowLayout.swift */,
+				F9B8BA766D5332516A0888BCB746E463 /* Support Files */,
+			);
+			path = CenteredCollectionView;
+			sourceTree = "<group>";
+		};
+		85487F46206F590768A8705E79A707BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B313D748E3E054AC720EF64B857BE75 /* Pods-Horo101 */,
+				45719708BF18ABA202D20FE62312E4A1 /* Pods-Horo101-Horo101UITests */,
+				4FE5620CDE112DDA0AEFE7F85CF9CF61 /* Pods-Horo101Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B313D748E3E054AC720EF64B857BE75 /* Pods-Horo101 */ = {
+			isa = PBXGroup;
+			children = (
+				F9BA54136BBF8887E305B23C8E0900CA /* Pods-Horo101.modulemap */,
+				C3025C888869F9DE85C3095098E384F1 /* Pods-Horo101-acknowledgements.markdown */,
+				037E22B89B33BD407BD0EF1A3323F2AF /* Pods-Horo101-acknowledgements.plist */,
+				428433C8E273AEE555B53814F6FF3706 /* Pods-Horo101-dummy.m */,
+				038DD96289C1D3624624721B7AB8ADD1 /* Pods-Horo101-frameworks.sh */,
+				BCDDF2EDED6D786697B10785D9AD38C2 /* Pods-Horo101-Info.plist */,
+				A5CEF01D60DEE6E6EB09A0F1BE447011 /* Pods-Horo101-umbrella.h */,
+				6C3CD707CF61F4EF8687856FF69C05BE /* Pods-Horo101.debug.xcconfig */,
+				4116E8924E75BC522D81D8B1F28C3117 /* Pods-Horo101.release.xcconfig */,
+			);
+			name = "Pods-Horo101";
+			path = "Target Support Files/Pods-Horo101";
+			sourceTree = "<group>";
+		};
+		8BE71EFD0A40A840B21FD2F9792D8765 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4310404255FDBE440C5A361BD011128B /* Foundation.framework */,
+				E341C6BBED69EAAE4BFB781F4E804F56 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9C20560C1EFEE0645EE37B87CDF6F38A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5F37A8C780D97B4CEC9CAC3FFB812 /* Extended.modulemap */,
+				C8B070271CE5A91F227BA8DF49A2DFFF /* Extended-dummy.m */,
+				C987BAE079B098C24DDC7DB43E25338B /* Extended-Info.plist */,
+				9C3FC7850248AB96E7F70CAABB1894FF /* Extended-prefix.pch */,
+				E86AD3A492A1C72ED69247880D69A7F6 /* Extended-umbrella.h */,
+				4F363C36DC685BDD3A10A6DA0C890047 /* Extended.debug.xcconfig */,
+				A7C18DB58A946B0660F785E06652C4E2 /* Extended.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Extended";
+			sourceTree = "<group>";
+		};
+		B0725CA12D08BEEC684F670EB8164078 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26985A92D778E0522BFB08FD3D03E61A /* DatePicker.modulemap */,
+				BAC0ED857E5F512891E8D8908092D483 /* DatePicker-dummy.m */,
+				FBA878B12021BE4A3085F1DDD6D5561F /* DatePicker-Info.plist */,
+				8F5AB7D46C66F73C55E29AA13CB675D7 /* DatePicker-prefix.pch */,
+				A3E50212E26B9CEB4382D013471646EC /* DatePicker-umbrella.h */,
+				582A794E5732E554A70FE65B509CD8E4 /* DatePicker.debug.xcconfig */,
+				DBE7F30ED2346AB47B978D8B170F1B81 /* DatePicker.release.xcconfig */,
+				B971C728CCACCC8A4C00740EDDD11522 /* ResourceBundle-DatePicker-DatePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DatePicker";
+			sourceTree = "<group>";
+		};
+		BA5F3E3D5E2484A52E7012196B319AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA997216C79E94D0F521BFA46ED390B2 /* CenteredCollectionView.framework */,
+				FB1C5BB5310885E8AAC4B9352A5286BC /* DatePicker.bundle */,
+				44506D47BF25607B40FFA549AB92BAE8 /* DatePicker.framework */,
+				AD54B0A0CC4179D558D5E6B3491B8F98 /* Extended.framework */,
+				4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */,
+				6DFAC0AC09F4F682430C400379B7E587 /* OHMySQL.framework */,
+				9F8B6F476DAC7762D970311156C0CC2C /* Pods_Horo101.framework */,
+				78F9D3D1779475930C358DD4AED2B91A /* Pods_Horo101_Horo101UITests.framework */,
+				B19831AA3FD2A7A30F4E80EEB05490FC /* Pods_Horo101Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DD4759927305667222C58CEC9DAC8835 /* Frameworks */,
+				FDF7D137AEC8BBD957FF1B58CEB3B90A /* Pods */,
+				BA5F3E3D5E2484A52E7012196B319AE3 /* Products */,
+				85487F46206F590768A8705E79A707BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E455691B263B4BD008220388819A58 /* OHMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				9572B52DD8508AABDEC285E40D2F4D8F /* big_endian.h */,
+				2679D5D05517AC3E4916503A20A54EED /* binary_log_types.h */,
+				7581EE0437D6738D583A8C6FB0F8196D /* byte_order_generic.h */,
+				56E1B38777CD94AE4681A88674589D7A /* byte_order_generic_x86.h */,
+				F3DAD167D664CDE1528EF670713D0B7A /* client_authentication.h */,
+				D5F8F6BEDCEAE8297260D0D12C93FA09 /* client_plugin.h */,
+				A0558AB63D66D14B6F3E8BA198F0E686 /* decimal.h */,
+				86D038F5765CB83ACFEB8A0387153988 /* errmsg.h */,
+				558A9E78AE376B819CAF9368E846BBCC /* get_password.h */,
+				48BE2D3B5935C8EBE9A58497DFC18FB2 /* keycache.h */,
+				60863BA5D4BD274BAC1DF6B5B944A5DC /* little_endian.h */,
+				458F9939C49AAEF4E5F5A24BA6D4B619 /* m_ctype.h */,
+				6BC130E4E8B3ACCDD3C3F5B41575DF83 /* m_string.h */,
+				7DFBBF1552F418CEFFE6C48539E0A923 /* my_alloc.h */,
+				CDB381A023A3D9208EFFF809C6ABA069 /* my_byteorder.h */,
+				A028D0B756EE19976DFD6311BB999BFF /* my_command.h */,
+				057115720F308733D0FF789B3364EB4E /* my_compiler.h */,
+				D7C7D2392516AB3AB36EE66B153B1DFF /* my_config.h */,
+				F77562131DE1FEEF218A2703AD74FF1E /* my_dbug.h */,
+				14BE6C650447001BFBF9D5B8DE80EEA7 /* my_dir.h */,
+				046B11A099A243865533836E306C5BC8 /* my_getopt.h */,
+				38A20D336E1F2E47556E0344368BA52F /* my_global.h */,
+				D6E1022C9E2B05268A6B01525B1C95FD /* my_list.h */,
+				DD3C6F9A676EB70695D77BBCDA3FCC1F /* my_sys.h */,
+				F0AC82D1DDB9DDC1BD05E9E90D596256 /* my_thread.h */,
+				7DC968FDDE847B7BE39DA4733E51E6FA /* my_thread_local.h */,
+				2E196C629670ED0C4B0FA61B2C3B9EA1 /* my_xml.h */,
+				CC6738FE3BFAE35ABD50889969DA65CC /* mysql.h */,
+				E44D023B45F60916F0DCB6B276266141 /* mysql_com.h */,
+				DB5D9B452F6223BAA18494B38BEB788D /* mysql_com_server.h */,
+				1FDA6863CC0C564CFD3FDCDAC1F4ED26 /* mysql_embed.h */,
+				E578B7601791B476B8FC8738C6556BF1 /* mysql_file.h */,
+				0574DCA6CD42751BE7513C30A5EA135B /* mysql_idle.h */,
+				7B9AF39CE440623B7CD5823310EBA22A /* mysql_lex_string.h */,
+				C776B4C0406564F40A62D85ECD28ED75 /* mysql_mdl.h */,
+				62C6DB9EA720F55C7F699E530648AAC0 /* mysql_memory.h */,
+				662218F8162694627919AD55FD7A4089 /* mysql_ps.h */,
+				F9515AFD0C9F603B89DB1A7D825B29C8 /* mysql_socket.h */,
+				24B430ABEAD114345083055E8B738728 /* mysql_sp.h */,
+				967F90FF71A44E3D2A2D61E0446F66ED /* mysql_stage.h */,
+				DB02C8A8F5ADBB321E3FBDB4643066EA /* mysql_statement.h */,
+				31337FE89A50748A1512DA882B25F4A5 /* mysql_table.h */,
+				087E1617DB73A7CCBD57DDCE3A881407 /* mysql_thread.h */,
+				CF982058E4A790DDD3ABB77ED1FDD1D2 /* mysql_time.h */,
+				E796BFBA8F74B2F512427288A7FC9537 /* mysql_transaction.h */,
+				CD1818805456ED6284F63E67A154557E /* mysql_version.h */,
+				FAA37242CBC317D096F7EA84EB486BC2 /* mysqld_ername.h */,
+				1918EAAFB36A02E9D06626BFBBD45429 /* mysqld_error.h */,
+				3139AADC914AE9812DC3F4E573932A29 /* NSData+OHSerialization.h */,
+				1E3379269864565FD13ED500250F7ED9 /* NSData+OHSerialization.m */,
+				B82DF42C13809189ADB4973C6ADA44DA /* NSNumber+OHSerialization.h */,
+				1B979A2342747F61BC54E6F57180390A /* NSNumber+OHSerialization.m */,
+				CA68A286052CDD91865B306CB8FEBC0E /* NSObject+Mapping.h */,
+				71F7FE57D703C4306AE4F809392BB07A /* NSObject+Mapping.m */,
+				54CCAA2C03F5BD10935A19287CCC790C /* NSString+Escaping.h */,
+				F3D7F16F4F842B659367F7C7EB337479 /* NSString+Escaping.m */,
+				96D8B052356705AF617D87E3F850C555 /* NSString+OHSerialization.h */,
+				1033CE57B8C2DE9C82728E0EDFF7F072 /* NSString+OHSerialization.m */,
+				61045FE8EFB5241A58411694F179F312 /* NSString+Utility.h */,
+				05DEFF28AB819BD255287B73007659E7 /* NSString+Utility.m */,
+				A5F69C5F66CAA64A5120174CA382C34D /* OHCharsetEncoding.h */,
+				9B3DE4E649748507C58FC6C1DD134363 /* OHCharsetEncoding.m */,
+				3F20AB8CC54AC047FF48597B12F19F2C /* OHConstants.h */,
+				3448AC8A74DF3CD001EA025A85D88F38 /* OHJoinConstants.h */,
+				5AECA71034C7AC142E70863A6EA7DB1F /* OHJoinConstants.m */,
+				47E3A121DE0A11B73DE5F5776528D6B8 /* OHLogging.h */,
+				CFD85B5FB26B5C71F310989557CAD46B /* OHMappingProtocol.h */,
+				802EAFE0E04998A634A7060C95FBE165 /* OHMySQL.h */,
+				F5A11435CE30250820B2B0EAC97E7C7E /* OHMySQLContainer.h */,
+				0B6727DBDCD57961C26BC6708B0D2453 /* OHMySQLContainer.m */,
+				D794CDF930AA45E0A1E992DA94A77DBF /* OHMySQLQueryContext.h */,
+				857852957E2928D32D06EDDAFE292DFE /* OHMySQLQueryContext.m */,
+				986BE7F68C7E5017D86E362619D2F182 /* OHMySQLQueryRequest.h */,
+				217FCC09B2DAB2F1CED22F3E98B41A0D /* OHMySQLQueryRequest.m */,
+				07E5D21E497AA8057E0B69FB7C1C031C /* OHMySQLQueryRequestFactory.h */,
+				E0C32BDD24DFA4E4AEC5C0206096D3DB /* OHMySQLQueryRequestFactory.m */,
+				BA80D536FE39D6848C936F69BFF4D373 /* OHMySQLSerialization.h */,
+				1A8A49F66DD80D8ED607A2B1D20D5645 /* OHMySQLSerialization.m */,
+				ED180B0BB40D53A95C1F18995E1D4843 /* OHMySQLStore.h */,
+				863872413F5E447D5E2AC2C7C24CF306 /* OHMySQLStore.m */,
+				A51AD9EBBC5458CA01210BAAF544D021 /* OHMySQLStoreCoordinator.h */,
+				1E58CFFAEFE9941A698D96A3A6B60865 /* OHMySQLStoreCoordinator.m */,
+				61306170A8171EC7871B7423E3D3BE04 /* OHMySQLTimeline.h */,
+				9E14B9DAE89EE8A36D6DC5B389AFD230 /* OHMySQLTimeline.m */,
+				231C72EDBCDC3B037C7468281C725499 /* OHMySQLUser.h */,
+				99CFD9B7A1FFA77C870DBD6B350B3CAB /* OHMySQLUser.m */,
+				0D6BD3C9415CDBEC3C6BCB328F1E1C22 /* OHProtocolType.h */,
+				D67D63AD24FF1E05DDC40A573303930F /* OHRefreshOptions.h */,
+				43E33C94366B659BB2492DFB0FCC0094 /* OHResultErrorType.h */,
+				E9346B1BBD6139B26880CC27CB307E50 /* OHSerializationProtocol.h */,
+				C8604D5A1176A51452F18F51202E4A96 /* OHSSLConfig.h */,
+				23828FC97554A18F97C02D1F54162CAD /* OHSSLConfig.m */,
+				9FCA51248800076A39676FA98F85F1FA /* plugin_auth_common.h */,
+				CE6CC63729635FE1BC9E795DDACDD6DA /* plugin_trace.h */,
+				56461F8214F1FCD7DE04CDC3F27E95F1 /* psi.h */,
+				24FD33D2172E60C65CC15C3D650D53D9 /* psi_base.h */,
+				6F42F1CEC764B10C5CB871CB377A9C35 /* psi_memory.h */,
+				F3F28CD448E58E41A48A8FE05F5B77D6 /* service_my_snprintf.h */,
+				DD4B1E8C4162B0263BFC71E04616E450 /* service_mysql_alloc.h */,
+				1A5885EC714552F85E4DD9CCB7EF9E80 /* sql_common.h */,
+				ED1E07CDEC5D18C3A7367D1556EB4A07 /* sql_state.h */,
+				9DF3D0551BE2034CD8BD9A1645DCF4C2 /* sslopt-case.h */,
+				28177505CFC85C035DECB707F21C40E5 /* sslopt-longopts.h */,
+				DA1E0F8BBA02DFCDAA59B5D680463291 /* sslopt-vars.h */,
+				5DB48E70C498CB3ABB0422E07CA28D29 /* thr_cond.h */,
+				D87A6B2D0360FF31AD6CF938F8AC45D8 /* thr_mutex.h */,
+				02BDA4D39174EE840883B41B6F8476C2 /* thr_rwlock.h */,
+				94ACCE63A8BA2359BEA867325B6E94AA /* typelib.h */,
+				22A77607D0CFE472C4F5F7EABD8E910E /* Frameworks */,
+				07C6E5D3FD38997AE2B763E531063FB0 /* Support Files */,
+			);
+			path = OHMySQL;
+			sourceTree = "<group>";
+		};
+		DD4759927305667222C58CEC9DAC8835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2197EE526496A64F9ACFC9B4236F4A06 /* Extended.framework */,
+				8BE71EFD0A40A840B21FD2F9792D8765 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F06D7C055B42786CD3183C7900C455C9 /* Gemini */ = {
+			isa = PBXGroup;
+			children = (
+				B37290EB19F54BBC1982595B0D236315 /* CircleRotateAnimatable.swift */,
+				D4180D240239F5D999405307161212D5 /* CubeAnimatable.swift */,
+				9EE0D6A71900C9B02AEEBF567406DF8E /* CustomAnimatable.swift */,
+				B0A22DD0D8DA6DCB7DD65BDE913835CB /* EasingAnimatable.swift */,
+				C7D22406D98EB60A6653C196D990220E /* EasingFunction.swift */,
+				2870F1D02183F82F3521CD39B1B7D62A /* GeminiAnimationModel.swift */,
+				80CDE9E0939E0B2D8E0D887F04FE83DD /* GeminiCell.swift */,
+				0063B4DF772C2B26D764978FAAF5395C /* GeminiCollectionView.swift */,
+				8089F20F5254C74D5FCB7B45AF794951 /* PitchRotationAnimatable.swift */,
+				85D48F86C3B86AD1F2DEADF8BDDF935F /* RollRotationAnimatable.swift */,
+				7F376E0F835114F9BE06063D8A80BF31 /* ScaleAnimatable.swift */,
+				103F2BCE372F9B3D500FF0CD59A5FF74 /* UIAppearanceAnimatable.swift */,
+				D1144BF4D9E93F2986845AA6A59AE8CE /* UIViewExtension.swift */,
+				A89FEEEEB9E78C52E281DEEA79B7ADDD /* YawRotationAnimatable.swift */,
+				F39320AF72291CB7E9761FE64AC13DF3 /* Support Files */,
+			);
+			path = Gemini;
+			sourceTree = "<group>";
+		};
+		F39320AF72291CB7E9761FE64AC13DF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F280ABE8D2CEF2CB23C488013B4CA2 /* Gemini.modulemap */,
+				9FE5D72496F9F21FC1440A2F82EC4EDA /* Gemini-dummy.m */,
+				1B7E271D4BD2857CA801BA879EC6AD7C /* Gemini-Info.plist */,
+				771D76BD6555AD98F7C73583302CC03D /* Gemini-prefix.pch */,
+				0DA0669AEBE07E2576668990C8723A26 /* Gemini-umbrella.h */,
+				A7C9EA1A53C2140E980955301E63FBB5 /* Gemini.debug.xcconfig */,
+				D66BF205103F280561608818B5BCB79D /* Gemini.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gemini";
+			sourceTree = "<group>";
+		};
+		F9B8BA766D5332516A0888BCB746E463 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				666DDC96DA732100CD85BFD460592FEA /* CenteredCollectionView.modulemap */,
+				17E99EA995644B712B732B1EDEE0F309 /* CenteredCollectionView-dummy.m */,
+				01E7A256FBF9BFB8421ED67FDC367442 /* CenteredCollectionView-Info.plist */,
+				35353F190A4B0A599013CEE1BD69202E /* CenteredCollectionView-prefix.pch */,
+				A9079F0423F0B3F12CA05A1BD5749C59 /* CenteredCollectionView-umbrella.h */,
+				259D9B06B38D57E89C2EDB4C029C2B94 /* CenteredCollectionView.debug.xcconfig */,
+				B11450CAE29F7B52EB0E77CEFFDD43B2 /* CenteredCollectionView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CenteredCollectionView";
+			sourceTree = "<group>";
+		};
+		FDF7D137AEC8BBD957FF1B58CEB3B90A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F9E425411A155D634EA996651AE6A7E /* CenteredCollectionView */,
+				1119E8006221905DCDC977C75CA2BF14 /* DatePicker */,
+				1B763F25383D0DEDE45AF8E7B96046DD /* Extended */,
+				F06D7C055B42786CD3183C7900C455C9 /* Gemini */,
+				D9E455691B263B4BD008220388819A58 /* OHMySQL */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12B761920869649BBEB054B26B473E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99F6DD1ED448987744E4C71D1E30101 /* CenteredCollectionView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C1050EA138131AEFC8697E3A6BDF94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C510B3C2C8B502B1134AEAFDB7DA10E5 /* Gemini-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562D2BD72D35656488FDAE48EA8DD7FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A717D8899A5BF391791350A2D112BBDA /* big_endian.h in Headers */,
+				A450283DCF941BBFA52EDAC5289A8BEA /* binary_log_types.h in Headers */,
+				4F532C4DBE75E0119B58A6E1D4DC9DCB /* byte_order_generic.h in Headers */,
+				8675BDAD0197AD032F88EE838C8C66EE /* byte_order_generic_x86.h in Headers */,
+				6501315DE26BE0FFE3210E0C493E7760 /* client_authentication.h in Headers */,
+				36CE097170B5FAD356597AC65FEE30C0 /* client_plugin.h in Headers */,
+				06AEDF225D90D7D86A86F20CD3423331 /* decimal.h in Headers */,
+				92A7B27AE36742717A18891C4C3C68D6 /* errmsg.h in Headers */,
+				362E5F33E31735145DDA774DED3C1F74 /* get_password.h in Headers */,
+				E2569E6D4DF391CF87319A3D3F33C4E7 /* keycache.h in Headers */,
+				E69A9B7350642E1BB97623E925F7566B /* little_endian.h in Headers */,
+				496460DCABF803C189AD212338717190 /* m_ctype.h in Headers */,
+				495FC41C10FFC231BD1212D5AD1D4F95 /* m_string.h in Headers */,
+				941D144549F3EB278F2B41B3A969F80A /* my_alloc.h in Headers */,
+				FF026C7E0CF8A511BE11FB8A33C26B05 /* my_byteorder.h in Headers */,
+				AF0763B08539B0F79D8254AFA66A375E /* my_command.h in Headers */,
+				A21325A740B869886C08C30D2B10A56D /* my_compiler.h in Headers */,
+				96AD7FC2E1320077AD4723B0B03C6E22 /* my_config.h in Headers */,
+				909EF5A73EB9DBC79B385B787B1D83AA /* my_dbug.h in Headers */,
+				96866903CBB09630043FA958D95F86B0 /* my_dir.h in Headers */,
+				D65C5A2E8CEFAA28F4C90697A8931815 /* my_getopt.h in Headers */,
+				B9F3FAEB3137EE8A5E3F47C14C5F2F03 /* my_global.h in Headers */,
+				AA34927E30C53FD4F6F20CB467B5196B /* my_list.h in Headers */,
+				6005CDF3DD1030EBA80EE7D44EB80300 /* my_sys.h in Headers */,
+				FCB39E37B3A2B6862D481A5D53EDBCF5 /* my_thread.h in Headers */,
+				21CD2879B82C5215F398A724067A31F8 /* my_thread_local.h in Headers */,
+				D6225EC558EF8AE0E631D81341BAB795 /* my_xml.h in Headers */,
+				42FFD2F6656561EEC98F07FCDFEE3F32 /* mysql.h in Headers */,
+				45F2AEBA571A3FD5DE4419782E96972A /* mysql_com.h in Headers */,
+				95A9A07CB261E740146CF83F12FE2B94 /* mysql_com_server.h in Headers */,
+				6EE7F42B88F981956ED6EA24FE060AEF /* mysql_embed.h in Headers */,
+				2F91ECF30B336F8F25CB49D70CE0CF3E /* mysql_file.h in Headers */,
+				E07DEB6A81DC36C70FC97B580DA75406 /* mysql_idle.h in Headers */,
+				FA826300A36F34935F5DFA7C64920E6F /* mysql_lex_string.h in Headers */,
+				D63D7927B07FD99B4107E40871BF7592 /* mysql_mdl.h in Headers */,
+				4EA06FC9044511C55BCB5B4AE03982F1 /* mysql_memory.h in Headers */,
+				1AA8F91974CADB6F7962D02885A3D2A0 /* mysql_ps.h in Headers */,
+				FE7F13AD197EB5085A656131A7BD5C1E /* mysql_socket.h in Headers */,
+				15C3AE52D766B5A05D8B82C5F4EA80E2 /* mysql_sp.h in Headers */,
+				A1D0FC543770F1939FCAF6D2620281E4 /* mysql_stage.h in Headers */,
+				7449001AB0C0DD1AB981F46B887F332C /* mysql_statement.h in Headers */,
+				7CB15D5F4D2BEC59747D59E267DAEBBF /* mysql_table.h in Headers */,
+				067C3F1528684D11245ADDCF3746D988 /* mysql_thread.h in Headers */,
+				85B27EB436ACCFA2565BAF454490766F /* mysql_time.h in Headers */,
+				9F91E255691737ECD97D6469EC50B045 /* mysql_transaction.h in Headers */,
+				88C2DE224152FB302F50105ECFBB0492 /* mysql_version.h in Headers */,
+				ED83345166E10D1FB2880AB6737F7172 /* mysqld_ername.h in Headers */,
+				B21589129660B7C8890B375401DDFE97 /* mysqld_error.h in Headers */,
+				C2FDC1E6EF1C09CBEF582876CB00A48C /* NSData+OHSerialization.h in Headers */,
+				62DF8AA810BE9CDCE93917794EAA29AF /* NSNumber+OHSerialization.h in Headers */,
+				FC65871FBF3039E32226D139E8597FD1 /* NSObject+Mapping.h in Headers */,
+				7DEF75CA2D2D0AB2FECA501A0EEB5D5A /* NSString+Escaping.h in Headers */,
+				3ECFF69A071F49B6C6CC70DACFF74387 /* NSString+OHSerialization.h in Headers */,
+				EE8114861B9841FABEF2DF07C40CEEE9 /* NSString+Utility.h in Headers */,
+				93C4FD03E6AAC5AEFE31EC4845117BF8 /* OHCharsetEncoding.h in Headers */,
+				0CD6F85F531988628B04B3651F2D59BF /* OHConstants.h in Headers */,
+				19120B5379BEC10E17A15ADF422FAC8F /* OHJoinConstants.h in Headers */,
+				BC5094802548BD1CF692756707D0D8E9 /* OHLogging.h in Headers */,
+				E34B6BDCC3453809981421E46A89B460 /* OHMappingProtocol.h in Headers */,
+				DB860D98F5F1523CE71B49D880B330A0 /* OHMySQL-umbrella.h in Headers */,
+				F86D9BFA86B8FB0BCF87E1A844863732 /* OHMySQL.h in Headers */,
+				C879BE0E77FE64A016D4EE841702577B /* OHMySQLContainer.h in Headers */,
+				4621A95DB7D9B3A07C0DB6FAEC68F138 /* OHMySQLQueryContext.h in Headers */,
+				4F71301967F8B9B40B1E2AFB99111D5A /* OHMySQLQueryRequest.h in Headers */,
+				9667C4192F7DE794CC15F20721F52F39 /* OHMySQLQueryRequestFactory.h in Headers */,
+				FB0D64E1CBAA1D9E596C0578BAEBE8BC /* OHMySQLSerialization.h in Headers */,
+				A1F2E1A33C4F95073E5F68F888849F17 /* OHMySQLStore.h in Headers */,
+				94DED50B7E51FF3FBDE88B1CB9059FDD /* OHMySQLStoreCoordinator.h in Headers */,
+				AECB71D69657219B919D2943CD19245B /* OHMySQLTimeline.h in Headers */,
+				2F2D5E89B3604AF7AFD47D3036023310 /* OHMySQLUser.h in Headers */,
+				79DD94D0E8AAEADF703ABA58D0DF73F6 /* OHProtocolType.h in Headers */,
+				54B59DC5B10F82C09A5153A2DF5EF843 /* OHRefreshOptions.h in Headers */,
+				EA35B998B0F4F37A7452CFDED85839FF /* OHResultErrorType.h in Headers */,
+				97C5AE9E4ECA09A175D50BF5E758FB61 /* OHSerializationProtocol.h in Headers */,
+				AF96C5E4BBC8800EA0E1AB3B1E9F31D4 /* OHSSLConfig.h in Headers */,
+				2F260267453AF91B84F10232BEE61218 /* plugin_auth_common.h in Headers */,
+				01B546CFC7BC0F687D40B7246064ED9D /* plugin_trace.h in Headers */,
+				AD8FAFF23D4F2F165F00391687A6315D /* psi.h in Headers */,
+				8481AF61ECD90E46926ECF0F09D95451 /* psi_base.h in Headers */,
+				5E93D248D94CB5A0CC429D72B88E2985 /* psi_memory.h in Headers */,
+				7A35B9506FE72538A9F9C64CBEEEEB25 /* service_my_snprintf.h in Headers */,
+				7BD6F1A7BAFAF1259018A256AD049B09 /* service_mysql_alloc.h in Headers */,
+				3511025E13FBE6997741DD69BFB8CF21 /* sql_common.h in Headers */,
+				113246517365BC6B53B8CD3DF63C7BCB /* sql_state.h in Headers */,
+				40266BF5FDD5DC1BBF1C9AC152EF8D1B /* sslopt-case.h in Headers */,
+				DB7515AD538361B0A6E6368A155CB563 /* sslopt-longopts.h in Headers */,
+				31B3A74CC60939CBA6C119E8C83444A9 /* sslopt-vars.h in Headers */,
+				664237F44F9A9ECE3394D4089CC939A3 /* thr_cond.h in Headers */,
+				BBBF060F6CC86237D93587F874376853 /* thr_mutex.h in Headers */,
+				D41FFE4174591E2EAEA0D9FF1E96AD5D /* thr_rwlock.h in Headers */,
+				30843F8E73689D16CE4F72F38761B5A9 /* typelib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832468368F84441FFD69840938D61C32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FC7CD1B05F1A7650B3B69C3C0FAD10 /* Pods-Horo101-Horo101UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EA7F203E5BD29DBD20F39949998639 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1C53151D1B13DDC04CCA4E81790D2B /* Extended-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992A5C4BA7B81DC697AC7FBC02FCD89D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CB3D20088669831BB7335B8C21CB5B /* DatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20E84F71CA014738F38D4B4CFEE4978 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C499E8EE01461F399EC151A2B880E9F5 /* Pods-Horo101Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8FC2760A0F9D600DE095383FCFA0BC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F33D48CF1D3FD5ECA228E22DA9EB42 /* Pods-Horo101-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C7D3DDB405C253FAF371BB83FD79FB8 /* Extended */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033D5B10763FA40F72966508EE45A9A7 /* Build configuration list for PBXNativeTarget "Extended" */;
+			buildPhases = (
+				90EA7F203E5BD29DBD20F39949998639 /* Headers */,
+				F56F0056595A1E6D70301C9AD7E7CD78 /* Sources */,
+				16EFBA3AF7DC9770A2A422FE90531357 /* Frameworks */,
+				9EDF23BF6803400850119954E6B7FCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extended;
+			productName = Extended;
+			productReference = AD54B0A0CC4179D558D5E6B3491B8F98 /* Extended.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		523C0639A1C4C93383B4DF83058D0094 /* OHMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A417AD38F226C42CC2B519532004DD4 /* Build configuration list for PBXNativeTarget "OHMySQL" */;
+			buildPhases = (
+				562D2BD72D35656488FDAE48EA8DD7FF /* Headers */,
+				6FDE1BB7A11D06A4CFB570AF38B3A513 /* Sources */,
+				0666A2B94C479F72B285A48708476A4F /* Frameworks */,
+				E6788116B79DDAB3A55A2F25D3BD7551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHMySQL;
+			productName = OHMySQL;
+			productReference = 6DFAC0AC09F4F682430C400379B7E587 /* OHMySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55EDD60E65F2A7496E465DB299D21376 /* Pods-Horo101-Horo101UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76F15815E1B118A05CEC044A583F299 /* Build configuration list for PBXNativeTarget "Pods-Horo101-Horo101UITests" */;
+			buildPhases = (
+				832468368F84441FFD69840938D61C32 /* Headers */,
+				B4E8E1824B093032FCF28BEC13E3E4F9 /* Sources */,
+				4CD78E8DB856054ED31E9EF1EC882892 /* Frameworks */,
+				E7C03668C702D13F32FA81B0571324DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D0F6308545B5F89D06A4C2900DE4CD /* PBXTargetDependency */,
+				A09B3F8297A94AB77C94A13F2E09F133 /* PBXTargetDependency */,
+				4CA2B1BD540101C16CD7CBD489B9525D /* PBXTargetDependency */,
+				D8C02E2A6B916EEE5A7DEBE7240D89E6 /* PBXTargetDependency */,
+				070685B4A5B29D114756B54D6740E648 /* PBXTargetDependency */,
+			);
+			name = "Pods-Horo101-Horo101UITests";
+			productName = "Pods-Horo101-Horo101UITests";
+			productReference = 78F9D3D1779475930C358DD4AED2B91A /* Pods_Horo101_Horo101UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61E5167DD6A18C0BBF309695BF1026AD /* CenteredCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E518E758305FB73DDFB4810D92D9AE5F /* Build configuration list for PBXNativeTarget "CenteredCollectionView" */;
+			buildPhases = (
+				12B761920869649BBEB054B26B473E50 /* Headers */,
+				4F09396935D591A21F22A441D95173EC /* Sources */,
+				1EC9EB8AAD2C9CD9D89890B1F53AB386 /* Frameworks */,
+				28D0F5F3D4E2BB5ADA778CE8BA446CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenteredCollectionView;
+			productName = CenteredCollectionView;
+			productReference = CA997216C79E94D0F521BFA46ED390B2 /* CenteredCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DE2D8DE28E245635DAB3E837F59E341 /* Pods-Horo101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0952A3B351224901F1A70350E472E8 /* Build configuration list for PBXNativeTarget "Pods-Horo101" */;
+			buildPhases = (
+				D8FC2760A0F9D600DE095383FCFA0BC4 /* Headers */,
+				3E873EF632C8A93BB85074564830B310 /* Sources */,
+				1395826B4DC3777C5F906D872766DC0B /* Frameworks */,
+				B19A82A983FD29C68E1A8E1294F686EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26476695E6E7E72D7BB5E891E4007DA7 /* PBXTargetDependency */,
+				F14402D25EEA70F513ADEE9EAB02FE0F /* PBXTargetDependency */,
+				FBCE6947E35037A108838A129039C46C /* PBXTargetDependency */,
+				3ABC290F60F22360C2C48D067D4FF737 /* PBXTargetDependency */,
+				DE00E23D70044484610CABDFEABB2C88 /* PBXTargetDependency */,
+			);
+			name = "Pods-Horo101";
+			productName = "Pods-Horo101";
+			productReference = 9F8B6F476DAC7762D970311156C0CC2C /* Pods_Horo101.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FBAAAA014863F32F1A5B69FA67675FD /* Pods-Horo101Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60B2BAF20BD06A80ED77B5C2E5E7ED5 /* Build configuration list for PBXNativeTarget "Pods-Horo101Tests" */;
+			buildPhases = (
+				C20E84F71CA014738F38D4B4CFEE4978 /* Headers */,
+				4BF6A046049F9E654CD6B0351735A669 /* Sources */,
+				82784444F6A21E1847A3B4C386931EA4 /* Frameworks */,
+				6E10622D9FE04DE981E4AC72DE932F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7460BBC26252ABB3D0B816EEA83CE582 /* PBXTargetDependency */,
+			);
+			name = "Pods-Horo101Tests";
+			productName = "Pods-Horo101Tests";
+			productReference = B19831AA3FD2A7A30F4E80EEB05490FC /* Pods_Horo101Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540EB9F45D1A1651537699E790A4707B /* Build configuration list for PBXNativeTarget "Gemini" */;
+			buildPhases = (
+				47C1050EA138131AEFC8697E3A6BDF94 /* Headers */,
+				D2C78646F7E112F5B95CCDF31EF2386B /* Sources */,
+				EDC6D46B69A2D4F2A81E143814AF68F3 /* Frameworks */,
+				A59FF8105FCA231B2F346967C43E7BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gemini;
+			productName = Gemini;
+			productReference = 4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5D03285C71FBD21C064499AA989B0AF /* DatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09274F79D2EC25E94444199F28160F8E /* Build configuration list for PBXNativeTarget "DatePicker" */;
+			buildPhases = (
+				992A5C4BA7B81DC697AC7FBC02FCD89D /* Headers */,
+				330D57039161BAC39C0FE07517F9E328 /* Sources */,
+				1965E4BE945D4651D141E114F3B2480E /* Frameworks */,
+				4EE8EEB7A8EB3503BEA195D35CDA50E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB74BAB9A8ECB2A5C363A3473EF406B /* PBXTargetDependency */,
+				6A6006432B99DB05DA46E7DE730C3A72 /* PBXTargetDependency */,
+			);
+			name = DatePicker;
+			productName = DatePicker;
+			productReference = 44506D47BF25607B40FFA549AB92BAE8 /* DatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F50B7647DB2B3FA46E0134FA33876E4A /* DatePicker-DatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AE0192B577BB05BB5CA9285BCB5D9C /* Build configuration list for PBXNativeTarget "DatePicker-DatePicker" */;
+			buildPhases = (
+				2B2CCF1A93307D380DC98C2B4BA43A43 /* Sources */,
+				A83784B53B6A333FE0880FDEDB4BE6AF /* Frameworks */,
+				C5BF3B25F16FDEB38B4409AE1DB90E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DatePicker-DatePicker";
+			productName = "DatePicker-DatePicker";
+			productReference = FB1C5BB5310885E8AAC4B9352A5286BC /* DatePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BA5F3E3D5E2484A52E7012196B319AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E5167DD6A18C0BBF309695BF1026AD /* CenteredCollectionView */,
+				C5D03285C71FBD21C064499AA989B0AF /* DatePicker */,
+				F50B7647DB2B3FA46E0134FA33876E4A /* DatePicker-DatePicker */,
+				1C7D3DDB405C253FAF371BB83FD79FB8 /* Extended */,
+				A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */,
+				523C0639A1C4C93383B4DF83058D0094 /* OHMySQL */,
+				6DE2D8DE28E245635DAB3E837F59E341 /* Pods-Horo101 */,
+				55EDD60E65F2A7496E465DB299D21376 /* Pods-Horo101-Horo101UITests */,
+				9FBAAAA014863F32F1A5B69FA67675FD /* Pods-Horo101Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28D0F5F3D4E2BB5ADA778CE8BA446CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE8EEB7A8EB3503BEA195D35CDA50E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047567BB8C722AB043A922A8797F81AF /* DatePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E10622D9FE04DE981E4AC72DE932F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF23BF6803400850119954E6B7FCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59FF8105FCA231B2F346967C43E7BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19A82A983FD29C68E1A8E1294F686EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BF3B25F16FDEB38B4409AE1DB90E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E25D711C71610C6DDF3F9CA14A1769 /* ButtonCollectionViewCell.xib in Resources */,
+				CCF03FB9FFEB505B4C1316317A696EBF /* DayCollectionViewCell.xib in Resources */,
+				EE3A6EC100351C7F9654F5638CA2930C /* DayHeaderCollectionViewCell.xib in Resources */,
+				B776C9EDD2413F13B8F89088461E4C0D /* DaysCollectionViewCell.xib in Resources */,
+				A485616DD87415C5BE4AD4A5F1AA47AE /* MonthCollectionViewCell.xib in Resources */,
+				01E8678B3C2DAFC5A8A0104180928C22 /* MonthsCollectionViewCell.xib in Resources */,
+				C79116E6D4CC938BF7DC19CEAC487985 /* Picker.storyboard in Resources */,
+				8CE18A60C54C9F807A45B76127273CAE /* YearCollectionViewCell.xib in Resources */,
+				2301813176F7187CFDE84C40C1FD8B88 /* YearsCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6788116B79DDAB3A55A2F25D3BD7551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C03668C702D13F32FA81B0571324DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2CCF1A93307D380DC98C2B4BA43A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330D57039161BAC39C0FE07517F9E328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B59C3F9A08840533D862C80228DF55D /* ButtonCollectionViewCell.swift in Sources */,
+				273F185964C4E9201297BF756022FC23 /* DatePicker-dummy.m in Sources */,
+				463008CD376658E54198166476191273 /* DatePicker.swift in Sources */,
+				7E58C9E93052F95611488AC3B48F1741 /* DatePickerColors.swift in Sources */,
+				10288FF239499F03CFE552CB730DE9F8 /* DatePickerHelper.swift in Sources */,
+				A67B355298240EF597FB5B80B67029D2 /* DayCollectionViewCell.swift in Sources */,
+				B1E29AAA84112A4E0ABC607990E0F41A /* DayHeaderCollectionViewCell.swift in Sources */,
+				80FAD3F88624470F7458AFD8AF3E7285 /* DaysCollectionViewCell.swift in Sources */,
+				5805C8DE182CDA1138D2642D4AF54E38 /* Fonts.swift in Sources */,
+				EB9BF8F1EB2FD2B1AD1DB67CCA4763B3 /* FrameHelper.swift in Sources */,
+				DB3D001421B6EE4631C7F77882D632DD /* MonthCollectionViewCell.swift in Sources */,
+				C9295F99EACC06FE9B49BEE051371A3C /* MonthsCollectionViewCell.swift in Sources */,
+				C990BD8F20C064A707AFFEDC64D8A8C9 /* PickerViewController.swift in Sources */,
+				D69236995D1DF170AEBDB94007A7E44F /* YearCollectionViewCell.swift in Sources */,
+				421C805B809A2B9A19DBDF42C315331C /* YearsCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E873EF632C8A93BB85074564830B310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE42D730DEC8474F0735FB121EAC03C /* Pods-Horo101-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF6A046049F9E654CD6B0351735A669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456C61893DF62BB66984686917E98540 /* Pods-Horo101Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F09396935D591A21F22A441D95173EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D864F81DDD675F725EC2FC310F831D8 /* CenteredCollectionView-dummy.m in Sources */,
+				E27C24C7E0F4A3F5363572B51C8139A1 /* CenteredCollectionViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDE1BB7A11D06A4CFB570AF38B3A513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BEA23FE665466355D08297629B27D7 /* NSData+OHSerialization.m in Sources */,
+				A1EC7268E2EDB70A2EC3203ED0420FD5 /* NSNumber+OHSerialization.m in Sources */,
+				4DD6DCEF8081B06AC9A8160FAB4363A8 /* NSObject+Mapping.m in Sources */,
+				3A05325C0022BEFF6AFE524CBF418272 /* NSString+Escaping.m in Sources */,
+				F0DA3829BFBD59317C506BC4DBFC563C /* NSString+OHSerialization.m in Sources */,
+				CEC2E9DC76531DD6C836287D7EAE488E /* NSString+Utility.m in Sources */,
+				9884328FF17DECDF26FAA84158AF92A0 /* OHCharsetEncoding.m in Sources */,
+				DA297D9EC5FA455E855BE384C92CAFEC /* OHJoinConstants.m in Sources */,
+				AA33945BE95139CF43C2BB17A00AC357 /* OHMySQL-dummy.m in Sources */,
+				EAC6C3A94BC9FEE0EC094607566969E1 /* OHMySQLContainer.m in Sources */,
+				1F9A87C9073DC8D74B5675A044C4BEC5 /* OHMySQLQueryContext.m in Sources */,
+				E4105D1358A1CC04806C4453F28F221C /* OHMySQLQueryRequest.m in Sources */,
+				3F7ECF1B43161B03BEB8AC1A7265D1AB /* OHMySQLQueryRequestFactory.m in Sources */,
+				68AC7600925DE220AAEBA3BBA81FE701 /* OHMySQLSerialization.m in Sources */,
+				885D59F337F85839B55F5BDAFE9C81AC /* OHMySQLStore.m in Sources */,
+				A68FA9D283C2FD2D8483F693E2A176D1 /* OHMySQLStoreCoordinator.m in Sources */,
+				F982A946B829D4AF9AF852D68FDC3A8A /* OHMySQLTimeline.m in Sources */,
+				46114BE42ACC2D40EB22AEE93F28923A /* OHMySQLUser.m in Sources */,
+				D61B5860091F90188A125D942FEB7906 /* OHSSLConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E8E1824B093032FCF28BEC13E3E4F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC957E3E743BB156CE99AA12A9400C76 /* Pods-Horo101-Horo101UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C78646F7E112F5B95CCDF31EF2386B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863D027754593DC7EDD79424E81AAB93 /* CircleRotateAnimatable.swift in Sources */,
+				9F3F23545E9660F0E3613A01765E7CCD /* CubeAnimatable.swift in Sources */,
+				67367C95022814B451818D7DA966B39F /* CustomAnimatable.swift in Sources */,
+				05FB9FD6293F7BBEF23E35863EFCF28D /* EasingAnimatable.swift in Sources */,
+				76C1BE5087E110A2F30165142F2529AD /* EasingFunction.swift in Sources */,
+				457755386A05F86E85BB5310C938C2F2 /* Gemini-dummy.m in Sources */,
+				2BC98A99502EAD1AE1F6962E14AC5A46 /* GeminiAnimationModel.swift in Sources */,
+				37E5D071D6368C27F0227856F9F59039 /* GeminiCell.swift in Sources */,
+				B5A10580A561DCE1A2233E35EC0B6F96 /* GeminiCollectionView.swift in Sources */,
+				4D2F941E57AE0BC1E5A69524DD7F0354 /* PitchRotationAnimatable.swift in Sources */,
+				CABDC21F6BCAE55DD91D98FB15D6F2BF /* RollRotationAnimatable.swift in Sources */,
+				4F203F93EC5C4F8E8389C18E23EBD336 /* ScaleAnimatable.swift in Sources */,
+				DE87ECAB93B21749969B2C63FE3ED3F0 /* UIAppearanceAnimatable.swift in Sources */,
+				A2AAC50C345806EA0D59A8EE90231AF1 /* UIViewExtension.swift in Sources */,
+				142D5D280048D1464688EE810BF838BD /* YawRotationAnimatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F0056595A1E6D70301C9AD7E7CD78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695891B704993218B871A40E09A1E9D8 /* Array.swift in Sources */,
+				BDB6D5CC0466F34EC029651C1A9AF256 /* Collection.swift in Sources */,
+				0C1E118A9F817E48D39EAD744DB52EC3 /* Color.swift in Sources */,
+				3227A96AABB11C8E34194ED1CEC32840 /* Date.swift in Sources */,
+				D333E32D55E7B1E59AA7EFCB989D882F /* DeviceOrientation.swift in Sources */,
+				582085914D295165DD714E73CE9F55C0 /* Double.swift in Sources */,
+				471A49D1A2C1FE318DDA398DBC86245F /* Extended-dummy.m in Sources */,
+				8C71582DAB763A370732EEA77E5990A5 /* Int.swift in Sources */,
+				3BCE1AF453A48560FF6D122AC4A4C79E /* Map.swift in Sources */,
+				F51C6C58083ED24003C2B359379408BE /* NSAttributedString.swift in Sources */,
+				BE2B0386614E667D273BCC058B1CB2F9 /* String.swift in Sources */,
+				C9C21B65C066C381BABB0D3CC0246972 /* TimeInterval.swift in Sources */,
+				1D4C421CB7E1CDA2A32FD8835E395D16 /* UIApplication.swift in Sources */,
+				B163C84DEF7F3B1A44B5B5E348153175 /* UICollectionView.swift in Sources */,
+				9BDC9CBF088BB0CED924F816ACC5EFC4 /* UIImage.swift in Sources */,
+				23F51CCDF94CE69DD9B210915E3A21A8 /* UILabel.swift in Sources */,
+				D7C73359EAEBCDC34F2AA7A10DA005E8 /* UIScrollView.swift in Sources */,
+				B254DE92F0DF622DA8352E0F1E52882D /* UIView.swift in Sources */,
+				13DD8455BDF1BA6AEA0C4C0D48F7E5F0 /* UIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		070685B4A5B29D114756B54D6740E648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OHMySQL;
+			target = 523C0639A1C4C93383B4DF83058D0094 /* OHMySQL */;
+			targetProxy = 0DEFC7172BFB33EEBA5EF3982EC5FB30 /* PBXContainerItemProxy */;
+		};
+		17D0F6308545B5F89D06A4C2900DE4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CenteredCollectionView;
+			target = 61E5167DD6A18C0BBF309695BF1026AD /* CenteredCollectionView */;
+			targetProxy = D5715FB150DEED8509749B368AF9DBA7 /* PBXContainerItemProxy */;
+		};
+		26476695E6E7E72D7BB5E891E4007DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CenteredCollectionView;
+			target = 61E5167DD6A18C0BBF309695BF1026AD /* CenteredCollectionView */;
+			targetProxy = 5D08245374226693A24AD60AE777157E /* PBXContainerItemProxy */;
+		};
+		3ABC290F60F22360C2C48D067D4FF737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gemini;
+			target = A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */;
+			targetProxy = BC8264798ACFC96C6A9B262033B22CC5 /* PBXContainerItemProxy */;
+		};
+		4CA2B1BD540101C16CD7CBD489B9525D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Extended;
+			target = 1C7D3DDB405C253FAF371BB83FD79FB8 /* Extended */;
+			targetProxy = A69B00729BE8FA9E9A8B1BA1FE419676 /* PBXContainerItemProxy */;
+		};
+		6A6006432B99DB05DA46E7DE730C3A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Extended;
+			target = 1C7D3DDB405C253FAF371BB83FD79FB8 /* Extended */;
+			targetProxy = 47B0878C0FF0EB0D56FCD1317B9AE55B /* PBXContainerItemProxy */;
+		};
+		7460BBC26252ABB3D0B816EEA83CE582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Horo101";
+			target = 6DE2D8DE28E245635DAB3E837F59E341 /* Pods-Horo101 */;
+			targetProxy = 8E06E5D4F73B5481B9EC7F29D3DBE0EE /* PBXContainerItemProxy */;
+		};
+		A09B3F8297A94AB77C94A13F2E09F133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DatePicker;
+			target = C5D03285C71FBD21C064499AA989B0AF /* DatePicker */;
+			targetProxy = 1B37BE6A6C243957341047AFD0A884DB /* PBXContainerItemProxy */;
+		};
+		CBB74BAB9A8ECB2A5C363A3473EF406B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DatePicker-DatePicker";
+			target = F50B7647DB2B3FA46E0134FA33876E4A /* DatePicker-DatePicker */;
+			targetProxy = AFDE9EFCEF2C1701F08A34285077644D /* PBXContainerItemProxy */;
+		};
+		D8C02E2A6B916EEE5A7DEBE7240D89E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gemini;
+			target = A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */;
+			targetProxy = E9C0436E32478F7E11C47447AB32E44A /* PBXContainerItemProxy */;
+		};
+		DE00E23D70044484610CABDFEABB2C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OHMySQL;
+			target = 523C0639A1C4C93383B4DF83058D0094 /* OHMySQL */;
+			targetProxy = DB620B180CE18EA872874DE7D674D1F6 /* PBXContainerItemProxy */;
+		};
+		F14402D25EEA70F513ADEE9EAB02FE0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DatePicker;
+			target = C5D03285C71FBD21C064499AA989B0AF /* DatePicker */;
+			targetProxy = F0D40B340B360CE7FB8D47FE375FA6B7 /* PBXContainerItemProxy */;
+		};
+		FBCE6947E35037A108838A129039C46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Extended;
+			target = 1C7D3DDB405C253FAF371BB83FD79FB8 /* Extended */;
+			targetProxy = 5C2054C526268A240A9998CA1CA0C76A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59EA1D099081930EC9E3ABDD54DA4AF0 /* DayCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDEDCA679EB35B676B63256FC04B6CC /* DayCollectionViewCell.xib */,
+			);
+			name = DayCollectionViewCell.xib;
+			path = DatePicker/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F5064D18F25BD91A22EA954EB38650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFD5CCACFF7D3D88ED314C87D83B956 /* OHMySQL.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OHMySQL/OHMySQL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHMySQL/OHMySQL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OHMySQL/OHMySQL.modulemap";
+				PRODUCT_MODULE_NAME = OHMySQL;
+				PRODUCT_NAME = OHMySQL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		533B5E61E5E96AB123BEBE7B163AB901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4116E8924E75BC522D81D8B1F28C3117 /* Pods-Horo101.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Horo101/Pods-Horo101-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horo101/Pods-Horo101.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58D6A34B54C8A1B285EC1E0855B5CD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11450CAE29F7B52EB0E77CEFFDD43B2 /* CenteredCollectionView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CenteredCollectionView/CenteredCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = CenteredCollectionView;
+				PRODUCT_NAME = CenteredCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FA67AD40545D63DF5C17456795F44A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE7F30ED2346AB47B978D8B170F1B81 /* DatePicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePicker/DatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePicker/DatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DatePicker/DatePicker.modulemap";
+				PRODUCT_MODULE_NAME = DatePicker;
+				PRODUCT_NAME = DatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63D6CD002A97A2A62C66BECB4E60C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259D9B06B38D57E89C2EDB4C029C2B94 /* CenteredCollectionView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CenteredCollectionView/CenteredCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = CenteredCollectionView;
+				PRODUCT_NAME = CenteredCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		664E7D51AA507976358B83799C88C458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42A2D6848AF9BAB69C344838055B555 /* Pods-Horo101-Horo101UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Horo101-Horo101UITests/Pods-Horo101-Horo101UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horo101-Horo101UITests/Pods-Horo101-Horo101UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C3D5DAA663E5D5AD54EBC7A6B072A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C9EA1A53C2140E980955301E63FBB5 /* Gemini.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B25B5D878D4DA29EA3101385E8511C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F363C36DC685BDD3A10A6DA0C890047 /* Extended.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Extended/Extended-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Extended/Extended-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Extended/Extended.modulemap";
+				PRODUCT_MODULE_NAME = Extended;
+				PRODUCT_NAME = Extended;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		92D8590F875302AB6CEE3305CEA43F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582A794E5732E554A70FE65B509CD8E4 /* DatePicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePicker/DatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePicker/DatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DatePicker/DatePicker.modulemap";
+				PRODUCT_MODULE_NAME = DatePicker;
+				PRODUCT_NAME = DatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93F41906E2252505405729B6F7761685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C18DB58A946B0660F785E06652C4E2 /* Extended.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Extended/Extended-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Extended/Extended-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Extended/Extended.modulemap";
+				PRODUCT_MODULE_NAME = Extended;
+				PRODUCT_NAME = Extended;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0BC288C3D6539DF9FFE4C93CA089629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6FFB4C8B26ABDF6497F226886ADA0C /* Pods-Horo101Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Horo101Tests/Pods-Horo101Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horo101Tests/Pods-Horo101Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6CB658CB244B8234E03AF62CF47A363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582A794E5732E554A70FE65B509CD8E4 /* DatePicker.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DatePicker";
+				IBSC_MODULE = DatePicker;
+				INFOPLIST_FILE = "Target Support Files/DatePicker/ResourceBundle-DatePicker-DatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = DatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B80AFCB321E6BAAE606716F80E528F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE7F30ED2346AB47B978D8B170F1B81 /* DatePicker.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DatePicker";
+				IBSC_MODULE = DatePicker;
+				INFOPLIST_FILE = "Target Support Files/DatePicker/ResourceBundle-DatePicker-DatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = DatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BC39A96B8E167DE47CFB7E9BC7C28E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66BF205103F280561608818B5BCB79D /* Gemini.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBD16ABB9D3696FD02264783336E9E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3CD707CF61F4EF8687856FF69C05BE /* Pods-Horo101.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Horo101/Pods-Horo101-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horo101/Pods-Horo101.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE05EF24F3628F07830DE3FFACFDF9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05335B394DA3DBD66FE98688414EBCDF /* Pods-Horo101Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Horo101Tests/Pods-Horo101Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horo101Tests/Pods-Horo101Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD2211A39D708695D8AEC23D019074E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD31BE0D407C8ADB608C6F406BEE4D6 /* Pods-Horo101-Horo101UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Horo101-Horo101UITests/Pods-Horo101-Horo101UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Horo101-Horo101UITests/Pods-Horo101-Horo101UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9A80BE4BACE71F3D65986764387E766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2026D3273D8B65DDAC25247E99185E27 /* OHMySQL.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OHMySQL/OHMySQL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHMySQL/OHMySQL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OHMySQL/OHMySQL.modulemap";
+				PRODUCT_MODULE_NAME = OHMySQL;
+				PRODUCT_NAME = OHMySQL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033D5B10763FA40F72966508EE45A9A7 /* Build configuration list for PBXNativeTarget "Extended" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B25B5D878D4DA29EA3101385E8511C4 /* Debug */,
+				93F41906E2252505405729B6F7761685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09274F79D2EC25E94444199F28160F8E /* Build configuration list for PBXNativeTarget "DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D8590F875302AB6CEE3305CEA43F43 /* Debug */,
+				5FA67AD40545D63DF5C17456795F44A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540EB9F45D1A1651537699E790A4707B /* Build configuration list for PBXNativeTarget "Gemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3D5DAA663E5D5AD54EBC7A6B072A69 /* Debug */,
+				BC39A96B8E167DE47CFB7E9BC7C28E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0952A3B351224901F1A70350E472E8 /* Build configuration list for PBXNativeTarget "Pods-Horo101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD16ABB9D3696FD02264783336E9E63 /* Debug */,
+				533B5E61E5E96AB123BEBE7B163AB901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AE0192B577BB05BB5CA9285BCB5D9C /* Build configuration list for PBXNativeTarget "DatePicker-DatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CB658CB244B8234E03AF62CF47A363 /* Debug */,
+				B80AFCB321E6BAAE606716F80E528F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A417AD38F226C42CC2B519532004DD4 /* Build configuration list for PBXNativeTarget "OHMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F5064D18F25BD91A22EA954EB38650 /* Debug */,
+				E9A80BE4BACE71F3D65986764387E766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76F15815E1B118A05CEC044A583F299 /* Build configuration list for PBXNativeTarget "Pods-Horo101-Horo101UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664E7D51AA507976358B83799C88C458 /* Debug */,
+				DD2211A39D708695D8AEC23D019074E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E518E758305FB73DDFB4810D92D9AE5F /* Build configuration list for PBXNativeTarget "CenteredCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D6CD002A97A2A62C66BECB4E60C8F1 /* Debug */,
+				58D6A34B54C8A1B285EC1E0855B5CD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60B2BAF20BD06A80ED77B5C2E5E7ED5 /* Build configuration list for PBXNativeTarget "Pods-Horo101Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BC288C3D6539DF9FFE4C93CA089629 /* Debug */,
+				CE05EF24F3628F07830DE3FFACFDF9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
